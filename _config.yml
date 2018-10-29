@@ -24,9 +24,9 @@ sass:
   sass_dir: _sass
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
-  - jekyll/tagging
+  - jekyll-json-feed
 
 include:
   - _pages
