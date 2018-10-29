@@ -21,6 +21,7 @@ permalink: pretty
 paginate:  60
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 gems:
