@@ -8,8 +8,6 @@ Minimal and Clean Jekyll Theme.
 * [Deployment](#deployment)
 * [Posts](#posts)
 * [Pages](#pages)
-* [Navigation](#navigation)
-* [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update favicon](#update-favicon)
 
@@ -48,11 +46,6 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
 
 # Pages path
 defaults:
