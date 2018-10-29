@@ -17,8 +17,11 @@ instagram:   ''
 facebook:    ''
 
 markdown:  kramdown
-permalink: pretty
-paginate:  60
+
+# PAGINATION
+paginate: 5
+paginate_path: "p:num"
+permalink: "/:title"
 
 sass:
   sass_dir: _sass
