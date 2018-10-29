@@ -9,7 +9,6 @@ Minimal and Clean Jekyll Theme.
 * [Posts](#posts)
 * [Pages](#pages)
 * [Navigation](#navigation)
-* [Disqus Comments](#disqus-comments)
 * [Google Analytics](#google-analytics)
 * [Social Media Links](#social-media-links)
 * [Update favicon](#update-favicon)
