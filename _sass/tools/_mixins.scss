@@ -17,18 +17,3 @@
     @content;
   }
 }
-
-// Mixin to drop micro clearfix into a selector.
-//
-// // Example use:
-//
-// .class {
-//   @include clearfix();
-// }
-@mixin clearfix() {
-  &:after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-}
