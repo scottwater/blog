@@ -2,6 +2,12 @@
   Components > Pagination
 \*------------------------------------*/
 
+#paging {
+  padding-top:30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .c-pagination {
   text-transform: uppercase;
   transition: $global-transition;
