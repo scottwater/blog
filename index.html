@@ -2,14 +2,13 @@
 layout: default
 ---
 
-<div class='o-wrapper'>
-  <div class='o-grid'>
+
+  <div>
     {% for post in paginator.posts %}
       {% include post-card.liquid %}
     {% endfor %}
   </div>
 
-  <div class='o-grid'>
+  <div id="paging">
     {% include pagination.html %}
   </div>
-</div>

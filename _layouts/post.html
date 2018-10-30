@@ -8,24 +8,17 @@ layout: default
   <meta itemprop='og:image' content='{{ base_path }}{{ page.image }}'>
 {% endif %}
 
-<div class='o-wrapper'>
 
-  <div class='o-grid'>
-    <div class='o-grid__col'>
-      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
+<article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
 
-        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
+  <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%b %d, %Y' }}</time>
+  <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%b %d, %Y' }}</time>
 
-        <div class='c-content' itemprop='articleBody'>
-          {% include page-image.html %}
+  <div class='c-content' itemprop='articleBody'>
+    {% include page-image.html %}
 
-          {{ content }}
-        </div>
-
-      </article>
-
-    </div>
+    {{ content }}
   </div>
-</div>
+
+</article>
