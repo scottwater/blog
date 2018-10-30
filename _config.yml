@@ -7,13 +7,14 @@
 
 # Site settings
 title:       Scott Watermasysk
-email:       'scottwater@gmail.com'
-description: 'Family, Life, Business, Code, and some sports'
+favicon:     assets/favicon.ico
+email:       scottwater@gmail.com
+description: Family, Life, Business, Code, and some sports
 baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://type-jekyll.aspirethemes.com/' # The base hostname & protocol for your site
-twitter:     'scottw'
-github:      'scottwater'
-instagram:   'skotwatir'
+url:         https://scottw.com # The base hostname & protocol for your site
+twitter:     scottw
+github:      scottwater
+instagram:   skotwatir
 
 markdown:  kramdown
 
