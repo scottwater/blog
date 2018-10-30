@@ -1,5 +1,5 @@
 <footer class='c-footer'>
-
+      <div id="social-links">
       <ul class='o-plain-list c-social-nav u-text-center'>
         <li class='c-social-nav__item'>
           <a href='{{ site.twitter }}' target='_blank'>
@@ -22,5 +22,15 @@
           </a>
         </li>
       </ul>
-
+      </div>
+      <div id="copyright" class='u-text-center u-font-medium'>
+        	<p><span>&copy; 2010-{{ site.time | date: '%Y' }} <a href="/" class="black">Scott Watermasysk</a></span></p>
+      </div>
+      <div id="feeds" class="u-text-center u-font-small">
+        <p>Feeds Available:
+          <a href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">RSS</a>
+          &amp;
+          <a href="{{ '/feed.json' | prepend: site.baseurl | prepend: site.url }}">JSON</a>
+        </p>
+      </div>
 </footer>
