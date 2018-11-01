@@ -8,3 +8,16 @@ fields:
   label: Title
   config:
     required: true
+- type: text
+  label: Layout
+  name: layout
+  default: post
+- type: datetime
+  label: Date
+  name: date
+- type: text
+  name: tags
+  label: Tags
+- type: text
+  name: categories
+  label: Categories
