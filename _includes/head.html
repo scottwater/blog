@@ -10,4 +10,7 @@
   <link rel='alternate' type='application/json' title='{{ site.title }}' href="{{ '/feed.json' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.favicon }}" type="image/x-icon">
+  {% if page.image %}
+    <meta itemprop='og:image' content='{{ page.image | prepend: site.baseurl | prepend: site.url}}'>
+  {% endif %}
 </head>
