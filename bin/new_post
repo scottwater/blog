@@ -4,7 +4,7 @@ require 'date'
 
 abort "Are you sure you are in a blog (Jekyll) root directory (no _posts directory)?" unless Dir.exists?("_posts")
 
-STOP_WORDS = %w{a an and are as at be but by for if in into is it no of on or such that the their then there these they this to s was will with}
+STOP_WORDS = %w{til ntm a an and are as at be but by for if in into is it no of on or such that the their then there these they this to s was will with}
 
 abort("You need to pass in a title") if ARGV.empty?
 
@@ -17,6 +17,7 @@ now = Time.now
 
 slug = title
         .downcase
+        .gsub(/[\W_]/, ' ')
         .split(' ')
         .select{|s| s unless s.empty?}
         .collect{|s| s unless STOP_WORDS.include?(s)}
