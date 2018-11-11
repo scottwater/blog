@@ -4,11 +4,11 @@ layout: default
 
 
   <div>
-    {% for post in paginator.posts %}
-      {% include post-card.liquid %}
-    {% endfor %}
+    {%- for post in paginator.posts -%}
+      {%- include post-card.liquid -%}
+    {%- endfor -%}
   </div>
 
   <div id="paging">
-    {% include pagination.html %}
+    {%- include pagination.html -%}
   </div>

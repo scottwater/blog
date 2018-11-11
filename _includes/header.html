@@ -1,21 +1,21 @@
 <header>
 <div id="logo-container">
-  <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+  <a class='c-logo__link' href='{{- site.baseurl -}}/'>{{- site.title -}}</a>
 </div>
 
 <div id="nav-container">
 
   <nav class="site-nav">
 		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
+			{%- for page in site.pages -%}
+			{%- if page.title and page.hide != true -%}
 			<li>
-				<a class="page-link" href="{{ page.url | relative_url }}">
-					{{ page.link_title | default: page.title }}
+				<a class="page-link" href="{{- page.url | relative_url -}}">
+					{{- page.link_title | default: page.title -}}
 				</a>
 			</li>
-			{% endif %}
-			{% endfor %}
+			{%- endif -%}
+			{%- endfor -%}
 		</ul>
 	</nav>
 </div>

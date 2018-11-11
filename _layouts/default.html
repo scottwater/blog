@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-{% include head.html %}
+{%- include head.html -%}
 
 <body>
 
   <div id="main-container">
-    {% include header.html %}
+    {%- include header.html -%}
 
     <div id="content">
-      {{ content }}
+      {{- content -}}
     </div>
 
-    {% include footer.html %}
+    {%- include footer.html -%}
   </div>
 
 
-  <script src="{{ '/assets/js/evil-icons.min.js' | prepend: site.baseurl }}"></script>
-  <script src="{{ '/assets/js/app.js' | prepend: site.baseurl }}"></script>
+  <script src="{{- '/assets/js/evil-icons.min.js' | prepend: site.baseurl -}}"></script>
+  <script src="{{- '/assets/js/app.js' | prepend: site.baseurl -}}"></script>
 </body>
 
 </html>
