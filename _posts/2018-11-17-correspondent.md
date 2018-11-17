@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The c
+title: The Correspondent
 date: 2018-11-17 06:06:40 -0500
 tags:
 categories:
