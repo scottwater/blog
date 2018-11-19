@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'pry'
 require 'date'
+require 'active_support/core_ext/string/inflections'
 
 abort "Are you sure you are in a blog (Jekyll) root directory (no _posts directory)?" unless Dir.exists?("_posts")
 
@@ -8,7 +9,7 @@ STOP_WORDS = %w{til ntm a an and are as at be but by for if in into is it no of 
 
 abort("You need to pass in a title") if ARGV.empty?
 
-title = (ARGV.count == 1 ? ARGV[0] : ARGV.join(" ")).strip
+title = (ARGV.count == 1 ? ARGV[0] : ARGV.join(" ")).strip.titleize
 abort("No title was found") if title.empty?
 
 
