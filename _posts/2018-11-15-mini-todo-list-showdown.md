@@ -6,11 +6,11 @@ tags: apps, productivity
 categories: apps
 ---
 
-I had previously used both [OmniFocus](https://www.omnigroup.com/omnifocus/) and [Things](https://culturedcode.com/things/), but neither stuck. Looking back, it was much more a lack disipline than an app issue.
+I had previously used both [OmniFocus](https://www.omnigroup.com/omnifocus/) and [Things](https://culturedcode.com/things/), but neither stuck. Looking back, it was much more a lack discipline than an app issue.
 
-I am getting old and forgetful. While I have been much better at taking notes and setting up reminders, it ends up scattered everywhere (well, _virtually everywhere_, but still everywhere). I decided to try to make it a real habbit and commit to using one.
+I am getting old and forgetful. While I have been much better at taking notes and setting up reminders, it ends up scattered everywhere (well, _virtually everywhere_, but still everywhere). I decided to try to make it a real habit and commit to using one.
 
-Another app I have seen floating around and never tried with [Todoist](https://todoist.com). I figured three apps was more than I can actually handle for a test, so I decided to bump one. Looking at the numbers, I dropped OmniFocus. For something as important as my time, $110 should be a nobrainer, but it is a hurrdle I could not cross. :)
+Another app I have seen floating around and never tried with [Todoist](https://todoist.com). I figured three apps was more than I can actually handle for a test, so I decided to bump one. Looking at the numbers, I dropped OmniFocus. For something as important as my time, $110 should be a no-brainer, but it is a hurdle I could not cross.
 
 Down to two apps, I was ready to dig in.
 
@@ -26,6 +26,6 @@ The Things desktop app comes with a free 14 day trial, but I had to drop $10 to 
 
 ## My Decision
 
-In the end, I decided to go back to Todoist and will stick with it for the forseeable future. The better quick add is to powerful to overlook. I also don't think you can overlook the cross platform access.
+In the end, I decided to go back to Todoist and will stick with it for the foreseeable future. The better quick add is too powerful to overlook. I also don't think you can overlook the cross platform access.
 
 [^1]: Like a camera, the best todo list is the one you have with you. To test it out, I wanted to be able to jot things down when they happened/came to me.
