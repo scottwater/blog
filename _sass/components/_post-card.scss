@@ -2,7 +2,7 @@
   Components > Post Card
 \*------------------------------------*/
 
-.c-post-card {
+.post-card {
   display: block;
   padding: double($base-spacing-unit) 0;
   word-break: break-word;
@@ -41,7 +41,7 @@
     color: $color-text;
     text-decoration: none;
 
-    .c-post-card__title {
+    .post-card__title {
       color: $color-brand;
     }
   }
