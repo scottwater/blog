@@ -20,4 +20,12 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [Next.js](https://next.training.leftlogic.com/?coupon=CYBER_WEEKEND) course - normally $99 on sale for $12.
 * [Servers For Hackers](https://serversforhackers.com/holidays) - 40% off everything
 * Namecheap is having [their usual Black Friday deal](https://www.namecheap.com/domain-web-hosting-ssl-deals/black-friday/). It looks overly complicated, but could be a good way to score a cheap domain.
-* PluralSight - [33% off their annual plans](https://learn.pluralsight.com/offers/2018/black-friday?growid=BFGB). I am current subscriber. Great overall product. Tons of courses. 
+* PluralSight - [33% off their annual plans](https://learn.pluralsight.com/offers/2018/black-friday?growid=BFGB). I am current subscriber. Great overall product. Tons of courses.
+* Amy Hoy's [Product Power Holiday Bundle](https://stackingthebricks.com/sale/) - an impressive list of tools to help you get moving on your next idea.
+* [NSScreencast](https://nsscreencast.com/episodes) - 50% off a lifetime membership. Coupon Code - black-friday-18-50
+* [Tech Career Toolbox](https://learntocodewith.me/blackfriday2018) - package deal if you are looking to learn to code.
+* [Make and Shine](https://makeandshine.com) - An Indie Maker's Guide to Personal Branding - 35% off with Coupon Code - BLACKFRIDAY
+* [Docker for Developers](https://leanpub.com/dockerfordevs/c/bf2018) - ebook, 15% off.
+* [Modern Web Development](https://gumroad.com/l/FKbd/blackfriday) - ebook, 50% off.
+
+[Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
