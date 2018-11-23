@@ -19,3 +19,4 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * Adam Wathan - [has a heavily discounted package](https://gumroad.com/l/PAVD/blackfriday2018).
 * [Next.js](https://next.training.leftlogic.com/?coupon=CYBER_WEEKEND) course - normally $99 on sale for $12.
 * [Servers For Hackers](https://serversforhackers.com/holidays) - 40% off everything
+* Namecheap is having [their usual Black Friday deal](https://www.namecheap.com/domain-web-hosting-ssl-deals/black-friday/). It looks overly complicated, but could be a good way to score a cheap domain.
