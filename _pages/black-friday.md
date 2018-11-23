@@ -36,5 +36,8 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [Paw](https://paw.cloud/) - The excellent (I own it) Paw API tool for Mac is 50% off with all proceeds going to charity.
 * [Tower](https://www.git-tower.com/mac) - I don't often use a desktop client for Git, but when I do it is always Tower. 50% off this week.
 * [Carrd](https://carrd.co) - Really nice one page sites. 50% off for the year. Coupon Code - BF2018FTW
+* [Functional-Light JavaScript](https://leanpub.com/fljs/c/black-is-the-new-cyber) - ebook for $5 - Coupon Code black-is-the-new-cybe
+* [Orion Icon Library](https://orioniconlibrary.com/blackfriday) - more than 50% lifetime membership
+* [React for Data Viz](https://swizec1.teachable.com/p/react-for-data-visualization/?product_id=879396&coupon_code=TURKEY) - 35% off video course
 
 [Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
