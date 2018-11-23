@@ -30,5 +30,7 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [Modern Web Development](https://gumroad.com/l/FKbd/blackfriday) - ebook, 50% off.
 * [Garret Dimon's](https://twitter.com/garrettdimon) - [Starting and Substainging](https://startingandsustaining.com) - Big sale, with 100% of revenue going to Adaptable--a non-profit site dedicated to helping amputees become more active
 * [Efficient Rails DevOps](https://efficientrailsdevops.com) - like the name says....20% off with Coupon Code: blackfriday
+* [AutomationGuides](https://automationguides.co) - video guides for marketing automation by [Brian Casel](https://twitter.com/casjam). 30% off. I have been waiting for this one to be released!
+* [Productize](https://productizecourse.com) - How to Productize a Service Business - 25% off (also by Brian Casel)
 
 [Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
