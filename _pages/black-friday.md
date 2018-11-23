@@ -35,5 +35,6 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [Dev.to](https://shop.dev.to) - Fun stuff for sale on Dev.to (16% off with Coupon Code BlackFriday10000)
 * [Paw](https://paw.cloud/) - The excellent (I own it) Paw API tool for Mac is 50% off with all proceeds going to charity.
 * [Tower](https://www.git-tower.com/mac) - I don't often use a desktop client for Git, but when I do it is always Tower. 50% off this week.
+* [Carrd](https://carrd.co) - Really nice one page sites. 50% off for the year. Coupon Code - BF2018FTW
 
 [Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
