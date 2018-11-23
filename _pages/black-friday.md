@@ -2,6 +2,7 @@
 layout: page
 title: Black Friday (and Cyber Monday) 2018
 link_title: Black Friday
+excerpt: Black Friday Deails for Bootstrappers, Hackers, and Makers
 ---
 
 Here is a list of the Black Friday deals I have come across which I believe would be useful for developers, bootstrappers, hackers and makers.
