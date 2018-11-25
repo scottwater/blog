@@ -40,6 +40,6 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [Orion Icon Library](https://orioniconlibrary.com/blackfriday) - more than 50% lifetime membership
 * [React for Data Viz](https://swizec1.teachable.com/p/react-for-data-visualization/?product_id=879396&coupon_code=TURKEY) - 35% off video course
 * [.Net Courses by Tim Corey](https://www.iamtimcorey.com) - 30% off.
-
+* [Make (BootStrappers Handbook)](https://makebook.io) - [Pieter Levels](https://twitter.com/levelsio) book on building profitable indie startups.
 
 [Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
