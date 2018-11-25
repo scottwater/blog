@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Black Friday (and Cyber Monday) 2018
-link_title: Black Friday
-excerpt: Black Friday Deails for Bootstrappers, Hackers, and Makers
+title: Cyber Monday 2018
+link_title: Cyber Monday
+permalink: /cyber-monday
+excerpt: Cyber Monday deals for Bootstrappers, Hackers, and Makers
 ---
 
 Here is a list of the Black Friday deals I have come across which I believe would be useful for developers, bootstrappers, hackers and makers.
 
-This is in no way an endorsement of any or all of them. None of the links are affiliates. I just thought it would be helpful to have everything in one place. If you are know of any other interesting deals which would appeal to this audience please shoot me an email at `blackfriday@scottw.com` with the details.
+This is in no way an endorsement of any or all of them. None of the links are affiliates. I just thought it would be helpful to have everything in one place. If you are know of any other interesting deals which would appeal to this audience please shoot me an email at `cybermonday@scottw.com` with the details.
 
 * Justin Jackson's [Megamaker 50% off a lot of tools to help your marketing game](https://megamaker.co/blackfriday/).
 * GoRails 35% off [annual plan](https://gorails.com/pricing)
