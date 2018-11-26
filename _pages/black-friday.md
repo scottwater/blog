@@ -45,5 +45,6 @@ This is in no way an endorsement of any or all of them. None of the links are af
 * [UptimeBar](https://uptimebar.app) - Nifty uptime notifcations of OS X. 50% off. I think this is on my shopping list for tomorrow.
 * [Hyperping](https://hyperping.io) - simple and reliable website monitoring. 30% off.
 * [Get Attention: Brand Building for Startups](https://getattention.co) - ebook 25% off with Coupon Code - sundaymonday.
+* [Rapid Rails Themes](https://rapidrailsthemes.com/orders/new?discount_code=CYBERTIME&__s=ardesnmozqz6pzghpxtb) - 20% off a great looking pack of rails themes.
 
 [Veni Kunche](https://twitter.com/venikunche) - also has a [list here of deal](https://www.diversifytech.co/deals). I pulled some of the deals from that list which seemed relevant to my own...but there are still quite a few I skipped. Check them out (especially if you are a new and/or would be developer)
