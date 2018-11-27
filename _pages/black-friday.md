@@ -4,6 +4,7 @@ title: Cyber Monday 2018
 link_title: Cyber Monday
 permalink: /cyber-monday
 excerpt: Cyber Monday deals for Bootstrappers, Hackers, and Makers
+hide: true
 ---
 
 Here is a list of the Black Friday deals I have come across which I believe would be useful for developers, bootstrappers, hackers and makers.
