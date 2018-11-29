@@ -16,6 +16,8 @@ twitter:     https://twitter.com/scottw
 github:      https://github.com/scottwater
 instagram:   https://instagram.com/skotwatir
 
+feed_items: 10
+
 markdown:  kramdown
 kramdown:
   footnote_backlink: '&#x21A9;&#xFE0E;'
