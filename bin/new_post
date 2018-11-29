@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
-require 'pry'
 require 'date'
 require 'active_support/core_ext/string/inflections'
 
-abort "Are you sure you are in a blog (Jekyll) root directory (no _posts directory)?" unless Dir.exists?("_posts")
+unless Dir.exists?("_posts")
+  abort "Are you sure you are in a blog (Jekyll) root directory (no _posts directory)?"
+end
 
 STOP_WORDS = %w{til ntm a an and are as at be but by for if in into is it no of on or such that the their then there these they this to s was will with}
 
@@ -12,9 +13,7 @@ abort("You need to pass in a title") if ARGV.empty?
 title = (ARGV.count == 1 ? ARGV[0] : ARGV.join(" ")).strip.titleize
 abort("No title was found") if title.empty?
 
-
 now = Time.now
-
 
 slug = title
         .downcase
@@ -30,8 +29,6 @@ path = "_posts/#{now.to_date.to_s}-#{slug.gsub(/ +/,'-')}.md"
 
 abort("Post File #{path} already exists") if File.exists?(path)
 
-
-
 front_matter =    <<-FRONTMATTER
                   ---
                   layout: post
@@ -41,15 +38,10 @@ front_matter =    <<-FRONTMATTER
                   categories:
                   ---
                   FRONTMATTER
-
-
-front_matter =  front_matter
-                  .split("\n")
-                  .map{|line| line.strip}
-                  .tap{|lines| lines << "\n\n"}
-                  .join("\n")
-
-
+                    .split("\n")
+                    .map{|line| line.strip}
+                    .tap{|lines| lines << "\n\n"}
+                    .join("\n")
 
 File.open(path, 'w') do |f|
   f.write(front_matter)
