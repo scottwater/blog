@@ -11,6 +11,6 @@ Interesting interview of [Paul Jarvis][1] on [Full Stack Radio][2] this week abo
 My mind set has always been, "if you are not growing you are shrinking (or maybe failing)". This definitely has given me something to think about. 
  
 [1]:https://twitter.com/pjrvs
-[2]:http://www.fullstackradio.com/102)
+[2]:http://www.fullstackradio.com/102
 
 
