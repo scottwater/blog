@@ -8,7 +8,7 @@ categories: code
 
 Setting up [Tailwind][1] (properly) in Rails requires quite a few steps.
 
-Thankfully there is a gem which automates most of them: [TailWind Rails][2]
+Thankfully there is a gem which automates most of them: [Tailwind Rails][2]
 
 Note: There are still a couple of commands you need to execute first (including install webpacker), but it worked perfectly on the first try for me.
 
