@@ -2,8 +2,8 @@
 layout: post
 title: Tailwind Rails
 date: 2018-12-01 04:56:09 -0500
-tags:rails,tailwind
-categories:code
+tags: rails,tailwind
+categories: code
 ---
 
 Setting up [Tailwind][1] (properly) in Rails requires quite a few steps.
