@@ -20,3 +20,7 @@ pre {
 
 li code,
 p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }
+
+.highlighter-rouge {
+  margin-bottom: 16px;
+}
