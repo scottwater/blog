@@ -34,4 +34,4 @@ This would be much simpler with `presence`
 name = user.name.presence || 'N.A.'
 ```
 
-If you are not familiar with Ruby, you may be asking why not just use `user.name || 	'N.A.'` directly. The present? (and related blank?) extension will handle empty strings which in Ruby are evaluated as truthy.
+If you are not familiar with Ruby, you may be asking why not just use `user.name || 	'N.A.'` directly. The present? (and related blank?) extension will handle empty strings which in Ruby are evaluated as truthy.
