@@ -11,12 +11,19 @@ During _business_ hours, I am the co-founder of KickoffLabs. I focus primarily o
 At KickoffLabs I am working on:
 
 * Improving our fraud protection
-* Broadcast emails
 * Leads via Phone/SMS
+* Improving how we handle and process images
+* Experimenting with options to publish pages directly to a CDN
 * Just making things easier to use
 
 Outside of Family and KickoffLabs:
 
 * Writing more (I hope!)
+* Getting ready to launch [Indie Triage](https://indietriage.com)
 * Prototyping a couple of other product ideas
-* Experimenting with Serverless programming, playing with CosmoDB, finally starting to make sense of Docker.
+* Trying to get better at visual/web design
+* Experimenting with docker
+* Less time on twitter and more time on places like:
+  * [IndieHackers](https://indiehackers.com)
+  * [Discuss Bootstrap](https://discuss.bootstrapped.fm/)
+
