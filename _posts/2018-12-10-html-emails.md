@@ -11,7 +11,7 @@ Browsers have made massive improvements over the years. The differences between 
 Unfortunately, HTML in emails is still in the dark ages.
 
 * Tables
-* Inlined styles
+* Inline styles
 * Limited styles
 * A patchwork of build tools
 * Testing requires a subscription to Litmus. 

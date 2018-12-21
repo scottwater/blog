@@ -20,8 +20,8 @@ Once you find where your customers are today, don't just post links to your prod
 
 Quora and Twitter were the two places we ([KickoffLabs][1]) benefited from most in the early days. 
 
-- Quora - we answered questions on landing pages.[^1]
-- Twitter - There was a free related tool to us that launched shortly before we did and managed to generate a good amount of press. Their growth shtick was to have would be users post about waiting in line (and then have them wait in line). Josh and I spent hours writing unique messages[^2] to each of them about skipping the line and going with a product that was waiting for them
+* Quora - we answered questions on landing pages.[^1]
+* Twitter - There was a free related tool to us that launched shortly before we did and managed to generate a good amount of press. Their growth shtick was to have would be users post about waiting in line (and then have them wait in line). Josh and I spent hours writing unique messages[^2] to each of them about skipping the line and going with a product that was waiting for them
 
 Neither was scalable and not the basis for a great marketing campaign. But it was a start and gave us time to work on building our own organic traffic.
 

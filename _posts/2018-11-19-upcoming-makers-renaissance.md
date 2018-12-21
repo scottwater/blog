@@ -8,7 +8,7 @@ categories: biz
 
 I love the lifestyle and freedom of owning my own business and building things that generally interest me. But I have always said I could give it up in a second and work for mega-corp XYZ[^1] if that was required to take care of my family.
 
-While I firmly believe we have an [obligation](https://scottw.com/obligation) to do interesting things if/when possible, I also believe most people are too risk adverse (both financially and public opinion) to failure to choose this path. Not to mention the fact that raising a family does not leave a lot of time to build and tinker...let alone publish things for others to use.
+While I firmly believe we have an [obligation](https://scottw.com/obligation) to do interesting things if/when possible, I also believe most people are too risk-adverse (both financially and public opinion) to failure to choose this path. Not to mention the fact that raising a family does not leave a lot of time to build and tinker...let alone publish things for others to use.
 
 However, in the coming years we are going to start seeing a lot of people with the skills and desire to be makers have a change in responsibilities. The children are going to be less financially dependent[^2]. The family time commitments will also likely lessen. And hopefully, many will start to have more financial independence as well. 
 
