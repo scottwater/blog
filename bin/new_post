@@ -47,4 +47,4 @@ File.open(path, 'w') do |f|
   f.write(front_matter)
 end
 
-`open #{path} -a /Applications/Byword.app`
+system('vim', path)
