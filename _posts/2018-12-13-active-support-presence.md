@@ -12,7 +12,7 @@ Active Support as a whole gets a bad wrap. Ruby is all about developer happiness
 
 One small extension I love is `presence`. 
 
-In short, it returns itself if .present? is true. Otherwise it returns nil
+In short, it returns itself if .present? is true. Otherwise, it returns nil
 
 ```ruby 
 1.presence  # => 1 
