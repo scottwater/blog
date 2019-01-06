@@ -1,22 +1,14 @@
-<footer class='footer'>
-      <div id="social-links">
-      <ul class='o-plain-list social-nav u-text-center'>
-        <li class='social-nav__item'>
-          <a href='{{- site.twitter -}}'>
-            <span class='social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
-          </a>
-        </li>
-        <li class='social-nav__item'>
-          <a href='{{- site.github -}}'>
-            <span class='social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
-          </a>
-        </li>
-        <li class='social-nav__item'>
-          <a href='mailto:{{- site.email -}}'>
-            <span class='social-nav__icon' data-icon='ei-envelope' data-size='s'></span>
-          </a>
-        </li>
-      </ul>
+<footer class='w-full text-center border-t border-grey p-4 pin-b'>
+      <div id="social-links" class="flex">
+        <a href='{{- site.twitter -}}'>
+          <span class='social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+        </a>
+        <a href='{{- site.github -}}'>
+          <span class='social-nav__icon' data-icon='ei-sc-github' data-size='s'></span>
+        </a>
+        <a href='mailto:{{- site.email -}}'>
+          <span class='social-nav__icon' data-icon='ei-envelope' data-size='s'></span>
+        </a>
       </div>
       <div id="copyright" class='u-text-center u-font-medium'>
         	<p><span>&copy; 2010-{{- site.time | date: '%Y' -}}</span> <a href="/" class="black">Scott Watermasysk</a></p>
