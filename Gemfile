@@ -1,6 +1,17 @@
 source "https://rubygems.org"
 gem 'jekyll'
-gem 'jekyll-paginate', group: [:jekyll_plugins]
-gem 'jekyll-compose', group: [:jekyll_plugins]
-gem 'jekyll-json-feed'
 gem 'activesupport'
+
+group :jekyll_plugins do
+  gem 'jekyll-json-feed'
+  gem 'jekyll-paginate'
+  gem 'jekyll-compose'
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-postcss"
+  gem "jekyll-purgecss"
+end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
