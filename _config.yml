@@ -26,13 +26,14 @@ paginate: 5
 paginate_path: "p:num"
 permalink: "/:title"
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
 plugins:
   - jekyll-paginate
   - jekyll-json-feed
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-postcss
+  - jekyll-purgecss
 
 include:
   - _pages
@@ -42,6 +43,15 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package-lock.json
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - bin
+  - .gitignore
 
 # Pages path
 defaults:
