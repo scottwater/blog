@@ -5,10 +5,10 @@
 
 <body class="font-sans text-black leading-tight antialiased">
 
-  <div id="main-container" class="py-8 lg:py-16 px-6 md:px-16 lg:px-24">
+  <div id="main-container" class="flex flex-col min-h-screen pt-8 lg:pt-16 px-6 md:px-16 lg:px-24">
     {%- include header.html -%}
 
-    <div id="content">
+    <div id="content" class="flex-1">
       {{- content -}}
     </div>
 
