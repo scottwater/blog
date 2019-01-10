@@ -4,9 +4,9 @@ title: About Me (Scott!)
 link_title: About
 image: /assets/images/pages/family.jpg
 ---
-Hello, I am Scott Watermasysk and I am the most blessed man on the planet.
+Hello, I am Scott Watermasysk, and I am the most blessed man on the planet.
 
-I live in New Jersey with these three wonderful women.
+I live in New Jersey with these three amazing women.
 
 I am the co-founder of a self-funded business, KickoffLabs (we make lead generation via viral contests easy). If you work in marketing, startups, or have a pulse, you needed KickoffLabs yesterday.
 
@@ -17,4 +17,4 @@ I am the co-founder of a self-funded business, KickoffLabs (we make lead generat
 * I still play basketball when my body (and family 😃) allow.
 * Software is what I was born to do professionally.
 
-Thanks for stopping by. Please let me know if there is something I can do to help you be more succcessful. 
+Thanks for stopping by. Please let me know if there is something I can do to help you be more successful. 
