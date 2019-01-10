@@ -22,9 +22,9 @@ kramdown:
   footnote_backlink: '&#x21A9;&#xFE0E;'
 
 # PAGINATION
-paginate: 5
-paginate_path: "p:num"
-permalink: "/:title"
+# paginate: 5
+# paginate_path: "p:num"
+# permalink: "/:title"
 
 plugins:
   - jekyll-paginate
