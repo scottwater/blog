@@ -4,7 +4,7 @@ title: What am I up to now?
 link_title: Now
 ---
 
-My primary activity/responsibility – Raising two wonderful daughters with my amazing wife.
+My primary activity/responsibility – Raising two great daughters with my fantastic wife.
 
 During _business_ hours, I am the co-founder of KickoffLabs. I focus primarily on the software development side if the business.
 
@@ -14,7 +14,7 @@ At KickoffLabs I am working on:
 * Leads via Phone/SMS
 * Improving how we handle and process images
 * Experimenting with options to publish pages directly to a CDN
-* Just making things easier to use
+* Making everything as simple as possible
 
 Outside of Family and KickoffLabs:
 
@@ -26,4 +26,3 @@ Outside of Family and KickoffLabs:
 * Less time on twitter and more time on places like:
   * [IndieHackers](https://indiehackers.com)
   * [Discuss Bootstrap](https://discuss.bootstrapped.fm/)
-
