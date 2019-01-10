@@ -6,6 +6,26 @@
 @import "_includes/components";
 @import "_includes/syntax";
 
+a {@apply no-underline text-black}
+
+.post a {@apply underline}
+
+.post li a {@apply no-underline}
+
+a:hover {@apply no-underline}
+
+.content > *{
+  @apply mb-6
+}
+
+.content > :last-child{
+  @apply mb-0
+}
+
+.highlighter-rouge {
+  @apply bg-grey-lightest italic;
+}
+
 /* Write your styles below this line. */
 
 /* Write your styles above this line. */

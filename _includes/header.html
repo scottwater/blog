@@ -1,22 +1,21 @@
-<header>
-  <div id="logo-container">
-    <a class='logo__link' href='{{- site.baseurl -}}/'>{{- site.title -}}</a>
+<header class="flex item-center align-center">
+  <div id="avatar" class="w-32">
+    <a href="{{- site.baseurl -}}/">
+      <img src="/assets/me.jpg" class="rounded-full h-12 lg:h-24">
+    </a>
   </div>
-
-  <div id="nav-container">
-
-    <nav class="site-nav">
-  		<ul>
+  <div class="">
+    <a href="{{- site.baseurl -}}/" class="self-center text-black text-3xl font-bold">
+      {{- site.title -}}
+    </a>
+    <nav class="flex items-strech">
   			{%- for page in site.pages -%}
   			{%- if page.title and page.hide != true -%}
-  			<li>
-  				<a class="page-link" href="{{- page.url | relative_url -}}">
+  				<a class="flex-1 text-grey-dark" href="{{- page.url | relative_url -}}">
   					{{- page.link_title | default: page.title -}}
   				</a>
-  			</li>
   			{%- endif -%}
   			{%- endfor -%}
-  		</ul>
   	</nav>
   </div>
 </header>

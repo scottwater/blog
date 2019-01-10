@@ -1,9 +1,11 @@
-<a href='{{ post.url | prepend: site.baseurl }}' class='post-card {% if forloop.first == true %} post-card--first {% endif %} {% if forloop.last == true %} post-card--last {% endif %}'>
-  <h3 class='post-card__title'>{{ post.title }}</h3>
+<article class="mb-10">
+  <h3 class="font-semibold">
+    <a href='{{ post.url}}' class="no-underline text-black hover:bg-black hover:text-white">{{ post.title }}</a>
+  </h3>
 
-  <p class='post-card__excerpt u-font-medium'>
+  <p>
     {{ post.content | strip_html | truncatewords:35 }}
   </p>
 
-  <span class='post-card__date'>{{ post.date | date: '%b %d, %Y' }}</span>
-</a>
+  <span class="text-muted text-sm text-grey">{{ post.date | date: '%b %d, %Y' }}</span>
+</article>
