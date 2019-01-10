@@ -2,15 +2,13 @@
 layout: default
 ---
 
-  <div>
-    <p><strong>Howdy! Thanks for stopping by.</strong></p>
-    <p>I have worked at startups (we call them small businesses on the east coast)
-    for nearly 20 years.</p>
-
+  <div class="mb-10">
+    {% capture intro %}{% include intro.md %}{% endcapture %}
+    {{ intro | markdownify }}
   </div>
 
   <div>
-    <h2 class="mb-10">Recent Posts</h2>
+    <h2 class="mb-5">Recent Posts</h2>
     {%- for post in paginator.posts -%}
       {%- include post-card.liquid -%}
     {%- endfor -%}
