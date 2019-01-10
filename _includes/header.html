@@ -5,13 +5,13 @@
     </a>
   </div>
   <div class="">
-    <a href="{{- site.baseurl -}}/" class="self-center text-black text-xl md:text-2xl lg:text-3xl font-bold">
+    <a href="{{- site.baseurl -}}/" class="self-center text-black text-xl md:text-2xl lg:text-3xl font-black font-headlines">
       {{- site.title -}}
     </a>
     <nav class="flex items-strech">
   			{%- for page in site.pages -%}
   			{%- if page.title and page.hide != true -%}
-  				<a class="flex-1 text-grey-dark" href="{{- page.url | relative_url -}}">
+  				<a class="flex-1 text-grey-dark mr-12 hover:underline" href="{{- page.url | relative_url -}}">
   					{{- page.link_title | default: page.title -}}
   				</a>
   			{%- endif -%}

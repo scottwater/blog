@@ -98,6 +98,19 @@ module.exports = {
   },
 
   fonts: {
+    'headlines' : [
+      'Rubik', 
+      'Constantia',
+      'Lucida Bright',
+      'Lucidabright',
+      'Lucida Serif',
+      'Lucida',
+      'DejaVu Serif',
+      'Bitstream Vera Serif',
+      'Liberation Serif',
+      'Georgia',
+      'serif',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',
