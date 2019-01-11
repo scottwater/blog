@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Archives
-link_title: Archive
+link_title: Posts
 ---
 <div>
   <ul id="archive" class="list-reset">
