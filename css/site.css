@@ -24,6 +24,14 @@ h1, h2, h3 {@apply font-headlines}
   @apply mb-0
 }
 
+.content li{
+  @apply mb-3
+}
+
+.content li:last-child{
+  @apply mb-0
+}
+
 .highlighter-rouge {
   @apply bg-grey-lightest italic;
 }
