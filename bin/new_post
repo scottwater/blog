@@ -32,7 +32,7 @@ abort("Post File #{path} already exists") if File.exists?(path)
 front_matter =    <<-FRONTMATTER
                   ---
                   layout: post
-                  title: #{title}
+                  title: "#{title}"
                   date: #{now}
                   tags:
                   categories:
