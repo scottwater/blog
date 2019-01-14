@@ -17,11 +17,15 @@ a:hover {@apply no-underline}
 
 h1, h2, h3 {@apply font-headlines}
 
-.content > *{
+blockquote {
+  @apply border-l-2 border-grey-light p-4 italic
+}
+
+.content > *, .content blockquote > *{
   @apply mb-6
 }
 
-.content > :last-child{
+.content > :last-child, .content blockquote > :last-child {
   @apply mb-0
 }
 
