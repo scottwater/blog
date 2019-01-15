@@ -25,7 +25,7 @@ OK, now on to what we are currently using.
 
 ### Heroku
 
-Next to salary, still by far our most significant expense. I have some particular gripes out Heroku, but before I list them, I want to be super clear that **I love the platform and think it is the way every small startup should launch**. Focus on your business and not your machines/cloud/etc.  
+Next to salary, still by far our most significant expense. I have some particular gripes about Heroku, but before I list them, I want to be super clear that **I love the platform and think it is the way every small startup should launch**. Focus on your business and not your machines/cloud/etc.  
 
 Here are some things I wished Heroku did better:
 
