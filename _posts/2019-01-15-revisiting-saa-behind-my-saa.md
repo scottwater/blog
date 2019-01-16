@@ -50,6 +50,10 @@ We use Fly to manage all of the SSL on our customer pages[^4]. Heroku did finall
 
 I am looking forward to layering in some more of their functionality (caching) in the next couple of months.
 
+### Dead Man's Snitch 
+
+We have quite a few moving parts and a small company. Watching our infrastructure is no one's job. Dead Man's Snitch lets us know when we get behind in our job queue or something scheduled does not happen when it was expected. Super cheap and highly recommended.
+
 ### HelpScout
 
 Great support product. Has been solid and keeps improving. Only issue is after about five years I still cannot see my custom customer data in the mobile app.
