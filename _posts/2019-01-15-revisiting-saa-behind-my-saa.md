@@ -4,6 +4,7 @@ title: "Revisiting The SaaS Behind My SaaS"
 date: 2019-01-15 05:20:40 -0500
 tags: saas, biz, software
 categories:
+permalink: /revisiting-saas-behind-my-saas
 ---
 
 Back in 2014, I wrote a post called [33 Amazing SaaS tools that Power KickoffLabs ][1][^1]. Since it is [not a good idea to litter your company blog with posts about the internals of the company][2], I thought I would do a recap here.
