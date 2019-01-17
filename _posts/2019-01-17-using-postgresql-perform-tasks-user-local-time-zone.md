@@ -45,7 +45,7 @@ scope :current_hour_by_time_zone, -> {
 }
 ```
 
-Then we can put it all together in our cron Sidekiq worker:
+Finally, we can put it all together in a cron Sidekiq worker:
 
 ```ruby
 class EnqueueDailyEmailsForSubscribersWorker
