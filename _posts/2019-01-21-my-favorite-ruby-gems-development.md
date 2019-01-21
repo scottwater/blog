@@ -25,6 +25,10 @@ There are many Ruby Gems you can use on a project. The following are my favorite
 
 [Guard][5] - Automates common tasks, usually related to a file change. to the spec is changed. There are 100s of plugins for various other tasks.
 
+[Timecop][12] - Makes it easy(ier?) to test dates:
+
+> A gem providing "time travel", "time freezing", and "time acceleration" capabilities, making it simple to test time-dependent code. It provides a unified method to mock Time.now, Date.today, and DateTime.now in a single call.
+
 If I am missing others, please let me know at hi@scottw.com or [@scottw][11] on Twitter.
 
 [1]:https://github.com/stympy/faker
@@ -38,4 +42,4 @@ If I am missing others, please let me know at hi@scottw.com or [@scottw][11] on 
 [9]:http://rspec.info/
 [10]:https://github.com/ankane/pgsync
 [11]:https://twitter.com/scottw
-
+[12]:https://github.com/travisjeffery/timecop
