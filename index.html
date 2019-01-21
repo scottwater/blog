@@ -10,6 +10,6 @@ layout: default
   <div>
     <h2 class="mb-5">Recent Posts</h2>
     {% for post in site.posts limit:6 %}
-      {%- include post-card.liquid -%}
+      {%- include post-excerpt.html -%}
     {%- endfor -%}
   </div>
