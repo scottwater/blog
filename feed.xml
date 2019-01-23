@@ -12,7 +12,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign feed_items = site.feed_items | default: 10 %}
-    {% for post in site.posts limit:feed_items %}
+    {% for post in site.categories.blog limit:feed_items %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
