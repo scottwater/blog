@@ -3,7 +3,6 @@ gem 'jekyll'
 gem 'activesupport'
 
 group :jekyll_plugins do
-  gem 'jekyll-json-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-compose'
   gem "jekyll-feed"

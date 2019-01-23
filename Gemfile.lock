@@ -38,8 +38,6 @@ GEM
       jekyll (~> 3.3)
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
-    jekyll-json-feed (1.0.0)
-      jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
     jekyll-postcss (0.1.0)
     jekyll-purgecss (0.1.0)
@@ -86,7 +84,6 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed
   jekyll-include-cache
-  jekyll-json-feed
   jekyll-paginate
   jekyll-postcss
   jekyll-purgecss
