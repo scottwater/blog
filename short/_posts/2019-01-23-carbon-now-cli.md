@@ -7,5 +7,5 @@ date: 2019-01-23 12:34:08 -0500
 tags:
 ---
 
-Really nice way to show code in tweets.
+Really nice way to show code in tweets all from your terminal.
 
