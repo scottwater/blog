@@ -11,3 +11,5 @@ Here are are the projects I am currently involved in:
 [New Jersey Bootstrappers](https://njbootstrappers.com) -  Still in its infancy stage, I am hoping to grow & connect a community around small self-funded business ideas.
 
 [Indie Triage](https://indietriage.com) - Tries to help ensure all questions asked on sites like Indie Hackers get answered.
+
+[Shorti](https://github.com/scottwater/shorti) - Simple API only URL Shortener ([more details](/shorti)).
