@@ -1,0 +1,47 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scott Watermasysk Short's</title>
+    <description>Links and mini posts about software and business</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/shortfeed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% assign feed_items = site.feed_items | default: 10 %}
+    {% for post in site.categories.short limit:feed_items %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        {% assign content = post.title %}
+
+        {%- if post.excerpt -%}
+          {% assign content = content | append: ' - ' | append: post.excerpt %}
+        {%- else -%}
+          {% assign content = content | append: ' - ' | append: post.content %}
+        {%- endif -%}
+        {% if post.short_url %}
+          {% assign content = content | append: ' ' | append: post.short_url %}
+        {% elsif post.link_url %}
+          {% assign content = content | append: ' ' | append: post.link_url %}
+        {% elsif post.excerpt %}
+          {%- assign post_url = post.url | prepend: site.url -%}
+          {% assign content = content | append: ' ' | append: post_url %}
+        {% endif %}
+        <description>{{ content | strip_html | strip | xml_escape | truncate:240 }}</description>
+
+
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        {%- if post.link_url %}
+          <source_url>{{post.link_url}}</source_url>
+        {% else %}
+          <source_url>{{post.url | prepend: site.url}}</source_url>
+        {%- endif -%}
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

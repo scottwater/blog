@@ -28,7 +28,6 @@ permalink: "/:title"
 
 plugins:
   - jekyll-paginate
-  - jekyll-json-feed
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
