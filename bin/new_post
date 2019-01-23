@@ -25,7 +25,7 @@ slug = title
         .strip
 abort("No words left for a valid slug") if slug.empty?
 
-path = "_posts/#{now.to_date.to_s}-#{slug.gsub(/ +/,'-')}.md"
+path = "blog/_posts/#{now.to_date.to_s}-#{slug.gsub(/ +/,'-')}.md"
 
 abort("Post File #{path} already exists") if File.exists?(path)
 
@@ -35,7 +35,6 @@ front_matter =    <<-FRONTMATTER
                   title: "#{title}"
                   date: #{now}
                   tags:
-                  categories:
                   ---
                   FRONTMATTER
                     .split("\n")
