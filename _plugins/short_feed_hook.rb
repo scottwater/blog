@@ -12,7 +12,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     # but enough when you are the author as well
     feed_excerpt = feed_excerpt
       .gsub(/<.*?>/m, '')
-      .gsub(/\r?\n/, '')
+      .gsub(/\r?\n/, ' ')
 
     # hard coded the domain that we get a true warning about length.
     published_url = "https://scottw.com#{post.url}"
