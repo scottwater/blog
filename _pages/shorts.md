@@ -9,6 +9,6 @@ title: Shorts
 
   <div>
     {% for post in site.categories.short %}
-      {%- include log.html -%}
+      {%- include short.html -%}
     {%- endfor -%}
   </div>
