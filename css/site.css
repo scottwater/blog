@@ -26,6 +26,10 @@ blockquote {
   @apply mb-6
 }
 
+article p {
+  @apply mt-2
+}
+
 .content > :last-child, .content blockquote > :last-child {
   @apply mb-0
 }
