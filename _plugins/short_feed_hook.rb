@@ -1,0 +1,45 @@
+Jekyll::Hooks.register :site, :post_read do |site|
+
+
+  site.categories['short'].each do |post|
+
+    has_excerpt_defined = !!post.data['excerpt_separator']
+    feed_excerpt = has_excerpt_defined ?  post.data["excerpt"].to_s : post.content
+
+    # not exactly the model for HTML santization,
+    # but enough when you are the author as well
+    feed_excerpt = feed_excerpt
+      .gsub(/<.*?>/m, '')
+      .gsub(/\r?\n/, '')
+
+    # hard coded the domain that we get a true warning about length.
+    published_url = "https://scottw.com#{post.url}"
+    feed_description = nil
+
+    external_url = post.data['short_url'] || post.data['link_url']
+    if external_url && !external_url.empty?
+      # if we are linking else where, just link to it
+      feed_description = "#{post.data['title']} - #{feed_excerpt} #{external_url}".strip
+    elsif has_excerpt_defined
+      # is there likely more to this post?
+      feed_description = "#{post.data['title']} - #{feed_excerpt} #{published_url}"
+    else
+      # just the post and title
+      feed_description = "#{post.data['title']} - #{feed_excerpt}"
+    end
+
+    if feed_description.length > 240
+      # Tweet max length of 240 minus 3 elipses plus blank space + url length
+      amount_to_truncate = (240 - (4 + published_url.length))
+      regex = Regexp.new("^.{0,#{amount_to_truncate}}\\b")
+      truncated_feed_description = regex.match(feed_description)[0]
+      Jekyll.logger.warn "Warning:", "Feed description is too long: #{post.data['title']}. #{feed_description.length} characters"
+      Jekyll.logger.warn "Truncated:", truncated_feed_description
+
+      feed_description = "#{truncated_feed_description.strip}... #{published_url}"
+    end
+
+    post.data['feed_description'] = feed_description
+  end
+
+end
