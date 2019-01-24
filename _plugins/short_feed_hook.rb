@@ -1,3 +1,5 @@
+require 'active_support/core_ext/string/filters'
+
 Jekyll::Hooks.register :site, :post_read do |site|
 
 
@@ -30,13 +32,12 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
     if feed_description.length > 240
       # Tweet max length of 240 minus 3 elipses plus blank space + url length
-      amount_to_truncate = (240 - (4 + published_url.length))
-      regex = Regexp.new("^.{0,#{amount_to_truncate}}\\b")
-      truncated_feed_description = regex.match(feed_description)[0]
+      lenght_to_truncate_at = (240 - (4 + published_url.length))
+      truncated_feed_description = feed_description.truncate(lenght_to_truncate_at, separator: /\s/)
       Jekyll.logger.warn "Warning:", "Feed description is too long: #{post.data['title']}. #{feed_description.length} characters"
       Jekyll.logger.warn "Truncated:", truncated_feed_description
 
-      feed_description = "#{truncated_feed_description.strip}... #{published_url}"
+      feed_description = "#{truncated_feed_description.strip} #{published_url}"
     end
 
     post.data['feed_description'] = feed_description
