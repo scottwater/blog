@@ -35,6 +35,9 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
     feed_description = feed_description.strip
 
+    # slight change published_url is already in the post.
+    # It will likely be removed via truncating and then re-added
+
     if feed_description.length > 280
       # Tweet max length of 280 minus 3 elipses plus blank space + url length
       lenght_to_truncate_at = (280 - (4 + published_url.length))
