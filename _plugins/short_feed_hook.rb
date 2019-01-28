@@ -33,6 +33,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
       feed_description = "#{feed_description} #{published_url}"
     end
 
+    feed_description = feed_description.strip
+
     if feed_description.length > 280
       # Tweet max length of 280 minus 3 elipses plus blank space + url length
       lenght_to_truncate_at = (280 - (4 + published_url.length))
