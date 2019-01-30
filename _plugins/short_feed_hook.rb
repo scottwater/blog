@@ -5,8 +5,12 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
   site.categories['short'].each do |post|
 
-    has_excerpt_defined = !!post.data['excerpt_separator']
+    if post.data['excerpt_separator'].nil? && post.content =~ /(<!--\s*more\s*-->)/
+      post.data["excerpt_separator"] = $1
+      post.data['excerpt'] = Jekyll::Excerpt.new(post)
+    end
 
+    has_excerpt_defined = !!post.data['excerpt_separator']
     # in Jekyll, all posts have an excerpt. 
     # I want to know if one was explicity defined
     feed_excerpt = has_excerpt_defined ?  post.data["excerpt"].to_s : post.content
