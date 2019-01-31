@@ -11,7 +11,7 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% assign feed_items = site.feed_items | default: 10 %}
+    {% assign feed_items = site.feed_items | default: 20 %}
     {% for post in site.categories.short limit:feed_items %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
