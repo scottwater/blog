@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Embracing Constraints"
-link_url: ""
-short_url: ""
+link_url:
+short_url:
 date: 2019-01-31 15:01:27 UTC
 permalink: "/s16"
 tags:
