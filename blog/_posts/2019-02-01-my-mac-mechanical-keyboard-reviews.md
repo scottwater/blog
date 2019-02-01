@@ -8,7 +8,7 @@ permalink: /mac-mechanical-keyboard-search
 
 ## Short Version
 
-I enjoyed using both the Das Keyboard and WASD Code V3. The smaller size and backlighting would have been enough to push the WASD ahead, but the crappy rollout and Windows requirement of the V3 was too much to overlook.
+I enjoyed using both the Das Keyboard and WASD Code V3. The smaller size and backlighting would have been enough to push the WASD ahead, but the rollout and Windows requirement of the V3 was too much to overlook.
 
 In the end, I kept the Das Keyboard and returned the other two.
 
