@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Are Your Shorts? And Why You Should Use Them Too."
+title: "What Are Shorts? And Why You Should Use Them Too."
 date: 2019-02-04 18:23:07 -0500
 tags:
 ---
