@@ -4,6 +4,8 @@ title: "Think Simpler"
 link_url:
 date: 2019-02-04 18:55:58 -0500
 tags:
+image: /assets/images/posts/publish_static.png
+no_headline_image: true
 ---
 
 For my 'shorts' feature, I wanted to remove some of the friction publishing multiple times a day to a Jekyll blog.
