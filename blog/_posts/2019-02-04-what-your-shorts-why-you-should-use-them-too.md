@@ -11,7 +11,7 @@ In my virtual circles, Twitter has killed blogging. I do not believe Twitter did
 
 What concerns me about blogging's demise is how much information vanishes after a couple of minutes.  You can like it, but good luck finding in the future. 
 
-What I am trying to do instead is something I am calling shorts. A short is a post that is either small enough inside a tweet or has enough formatting applied so that it can start as a tweet and can be followed on site if it piques your interest. 
+What I am trying to do instead is something I am calling shorts. A short is a post that is either small enough to live inside a tweet or has enough formatting applied so that it can start as a tweet and can be followed on site if it piques your interest. 
 
 I even went as far as building a simple UI which posts to this (static!) blog: 
 
