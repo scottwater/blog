@@ -15,7 +15,7 @@ Ruby 2.3 introduced a feature called the "Lonely Operator" (which I somehow miss
 
 Instead of: 
 
-'user && user.address && user.address.street` 
+`user && user.address && user.address.street` 
 
 You can write it like this: 
 
