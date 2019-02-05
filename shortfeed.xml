@@ -15,16 +15,6 @@ layout: null
     {% for post in site.categories.short limit:feed_items %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        {% assign content = post.title %}
-        {% assign content = content | append: ' - ' | append: post.smart_excerpt %}
-        {% if post.short_url %}
-          {% assign content = content | append: ' ' | append: post.short_url %}
-        {% elsif post.link_url %}
-          {% assign content = content | append: ' ' | append: post.link_url %}
-        {% elsif post.excerpt %}
-          {%- assign post_url = post.url | prepend: site.url -%}
-          {% assign content = content | append: ' ' | append: post_url %}
-        {% endif %}
         <description>{{ post.feed_description | strip_html | xml_escape | truncate:280 }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
