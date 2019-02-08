@@ -1,10 +1,11 @@
 source "https://rubygems.org"
-gem 'jekyll'
+gem 'jekyll', github: 'jekyll/jekyll'
+gem "liquid-c"
 gem 'activesupport'
 
 group :jekyll_plugins do
+  gem "jekyll-commonmark"
   gem 'jekyll-paginate'
-  gem 'jekyll-compose'
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-postcss"

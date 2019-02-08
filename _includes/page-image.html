@@ -1,5 +1,5 @@
 {%- if page.image -%}
   {%- unless page.no_headline_image -%}  
-    <img src='{{- page.image | prepend: site.baseurl -}}' class='post__image' alt='{{- page.title -}}'>
+    <img src='{{- page.image -}}' alt='{{- page.title -}}'>
   {%- endunless -%}
 {%- endif -%}

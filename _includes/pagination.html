@@ -1,7 +1,7 @@
 
   <div id="previous-page">
     {%- if paginator.previous_page -%}
-    <a class='pagination' href='{{- paginator.previous_page_path | prepend: site.baseurl -}}'>
+    <a class='pagination' href='{{- paginator.previous_page_path -}}'>
       <div class='pagination__icon pagination__icon--prev' data-icon='ei-chevron-left'></div>
       <span class='pagination__text pagination__text--prev'>Previous</span>
     </a>
@@ -12,7 +12,7 @@
 
   <div id="next-page" class='u-text-right'>
     {%- if paginator.next_page -%}
-    <a class='pagination' href='{{- paginator.next_page_path | prepend: site.baseurl -}}'>
+    <a class='pagination' href='{{- paginator.next_page_path -}}'>
       <span class='pagination__text pagination__text--next'>Next</span>
       <div class='pagination__icon pagination__icon--next' data-icon='ei-chevron-right'></div>
     </a>

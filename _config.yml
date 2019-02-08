@@ -18,6 +18,9 @@ github:      https://github.com/scottwater
 feed_items: 10
 
 markdown:  kramdown
+commonmark: 
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
 kramdown:
   footnote_backlink: '&#x21A9;&#xFE0E;'
 
@@ -27,6 +30,7 @@ kramdown:
 permalink: "/:title"
 
 plugins:
+  - jekyll-commonmark
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
