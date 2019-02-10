@@ -14,6 +14,7 @@ tags:
 I am looking forward to this. I often use code that looks like this: 
 
 ```h = Hash.new(0)```
+
 ```items.each {|item| h[item] += 1}```
 
 What makes this work is whatever you pass to Hash in the initializer is used as the default value.
