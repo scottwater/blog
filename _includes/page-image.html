@@ -1,5 +1,8 @@
 {%- if page.image -%}
   {%- unless page.no_headline_image -%}  
     <img src='{{- page.image -}}' alt='{{- page.title -}}'>
+    {% if page.photo_credit %}
+      <span class="block text-grey pt-0 -mt-6 text-center">Photo Credit: {{ page.photo_credit }}</span>
+    {% endif %}
   {%- endunless -%}
 {%- endif -%}
