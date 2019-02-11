@@ -3,7 +3,8 @@ layout: post
 title: "Using Postgresql To Perform Tasks In A User's Local Time Zone"
 date: 2019-01-17 09:30:25 -0500
 tags: postgresql, scopes, rails
-
+image: /assets/images/posts/timezones.jpg
+photo_credit: Luis Cortes via UnSplash
 ---
 
 One of the benefits of side projects is giving yourself a chance to see new solutions to problems you have already tackled.
