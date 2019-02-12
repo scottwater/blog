@@ -31,7 +31,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
 
     if external_url && !external_url.empty?
       # if we are linking else where, just link to it
-      feed_description = "#{feed_description} #{external_url}".strip
+      feed_description = "#{feed_description} #{external_url}"
     elsif has_excerpt_defined
       # is there likely more to this post?
       feed_description = "#{feed_description} #{published_url}"
