@@ -25,4 +25,4 @@ Instead, how you compete with an entrenched competitor is with things they canno
 Find your competitive advantage and use it.
 
 [^1]: According to the facts, I am taking this quote completely out of context. Please do not let the facts get in the way of my story.
-[^2]: I am increasingly less convinced high(er) prices is the answer. More on this in the future.
+[^2]: I am increasingly less convinced high(er) prices is the only answer. More on this in the future.
