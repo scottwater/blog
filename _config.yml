@@ -12,11 +12,8 @@ email:       scottwater@gmail.com
 description: Family, Life, Business, Code, and some sports
 baseurl:     '' # The subpath of your site, e.g. /blog
 url:         https://scottw.com # The base hostname & protocol for your site
-author:
-  picture: /assets/scottw.jpg
-  twitter: scottw
-twitter:
-  username: scottw
+twitter:     https://twitter.com/scottw
+github:      https://github.com/scottwater
 
 feed_items: 10
 
@@ -40,7 +37,6 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
   - jekyll-include-cache
-  - jekyll-seo-tag
 
 include:
   - _pages
