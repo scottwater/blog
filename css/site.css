@@ -8,7 +8,7 @@
 
 a {@apply no-underline text-black}
 
-.post a {@apply underline}
+.post a, article p a {@apply underline}
 .post h1 a {@apply no-underline}
 
 .post #archive li a {@apply no-underline}
