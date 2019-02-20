@@ -47,8 +47,6 @@ Jekyll::Hooks.register :site, :post_read do |site|
       lenght_to_truncate_at = (280 - (4 + published_url.length))
       # try to truncate at a word break
       truncated_feed_description = feed_description.truncate(lenght_to_truncate_at, separator: /\s/)
-      Jekyll.logger.warn "Warning:", "Feed description is too long: #{post.data['title']}. #{feed_description.length} characters"
-      Jekyll.logger.warn "Truncated:", truncated_feed_description
 
       feed_description = "#{truncated_feed_description.strip} #{published_url}"
     end
