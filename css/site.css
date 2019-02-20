@@ -46,6 +46,14 @@ article p {
   @apply bg-grey-lightest italic;
 }
 
+.footnotes {
+  @apply border-t-2 border-solid border-grey-lighter pt-2 mx-32
+}
+
+.footnotes ol{
+  @apply -mx-32
+}
+
 /* Write your styles below this line. */
 
 /* Write your styles above this line. */
