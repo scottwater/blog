@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Bugs are Inenvitable. Your Response is What Matters"
+title: "Bugs are Inevitable. Your Response is What Matters"
 date: 2019-02-20 08:22:29 -0500
 tags:
 image: /assets/images/posts/wasd_sorry.png
 ---
 
-Bug, defects, delays, etc will always happen. With good practices you can minimize them, but they will always exist.
+Bug, defects, delays, etc will always happen. With good practices, you can minimize them, but they will always exist.
 
 You can however control **how you respond to them**. This message from [WASD][1] is exceptional. 
 [^1]
