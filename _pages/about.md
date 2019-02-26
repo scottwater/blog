@@ -3,6 +3,7 @@ layout: page
 title: About Me (Scott!)
 link_title: About
 image: /assets/images/pages/family.jpg
+headline_image: true
 ---
 Hello, I am Scott Watermasysk, and I am the most blessed man on the planet.
 

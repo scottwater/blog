@@ -4,6 +4,7 @@ title: "Using Postgresql To Perform Tasks In A User's Local Time Zone"
 date: 2019-01-17 09:30:25 -0500
 tags: postgresql, scopes, rails
 image: /assets/images/posts/timezones.jpg
+headline_image: true
 photo_credit: Luis Cortes via UnSplash
 ---
 

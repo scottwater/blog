@@ -4,6 +4,7 @@ title: "Michelle Obama On Startup Pricing"
 date: 2019-02-10 07:53:54 -0500
 tags: [business, pricing, startups]
 image: /assets/images/posts/colin-watts-1169445-unsplash.jpg
+headline_image: true
 photo_credit: Colin Watts via UnSplash
 ---
 On startup pricing, Michelle Obama famously said,
