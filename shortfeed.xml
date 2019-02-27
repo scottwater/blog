@@ -24,6 +24,9 @@ layout: null
           <source_url>{{post.url | prepend: site.url}}</source_url>
         {%- endif -%}
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
+        {% if post.rss_image %}
+          <image>{{ post.rss_image | prepend: site.url }}</image>
+        {% endif %}
       </item>
     {% endfor %}
   </channel>

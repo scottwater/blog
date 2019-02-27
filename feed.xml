@@ -18,6 +18,9 @@ layout: null
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.url }}</link>
+        {% if post.rss_image %}
+          <image>{{ post.rss_image | prepend: site.url }}</image>
+        {% endif %}
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
       </item>
     {% endfor %}
