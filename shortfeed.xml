@@ -15,7 +15,7 @@ layout: null
     {% for post in site.categories.short limit:feed_items %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.feed_description | strip_html | xml_escape | truncate:280 }}</description>
+        <description><![CDATA[{{ post.feed_description | strip_html | truncate:280 }}]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: prepend: site.url }}</link>
         {%- if post.link_url %}
