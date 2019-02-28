@@ -2,7 +2,6 @@ require 'active_support/core_ext/string/filters'
 
 Jekyll::Hooks.register :site, :post_read do |site|
 
-
   site.categories['short'].each do |post|
 
     if post.data['excerpt_separator'].nil? && post.content =~ /(<!--\s*more\s*-->)/
@@ -19,7 +18,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
     # but enough when you are the author as well
     feed_excerpt = feed_excerpt
       .gsub(/<.*?>/m, '')
-      .gsub(/\r?\n/, ' ')
+      .gsub(/(\r?\n)+/, ' ')
+      .strip
 
     # hard coded the domain that we get a true warning about length.
     published_url = "https://scottw.com#{post.url}"
