@@ -6,4 +6,4 @@ short_url: https://smw.fyi/40
 link_url: https://github.com/LisaDziuba/Awesome-Design-Tools/blob/master/README.md
 permalink: s7n
 ---
- At some point we will need a list of “Awesome Awesome Lists” on Github. 
+At some point we will need a list of “Awesome Awesome Lists” on Github. 

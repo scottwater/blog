@@ -6,4 +6,4 @@ short_url: https://smw.fyi/44
 link_url: https://www.reifyworks.com/writing/2017-03-13-hacker-news-doesnt-pay-the-bills
 permalink: s7r
 ---
- I have said this before as well (https://scottw.com/your-startup-does-not-need-blog). Write & create for your customers, not your compatriot.
+I have said this before as well (https://scottw.com/your-startup-does-not-need-blog). Write & create for your customers, not your compatriot.
