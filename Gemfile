@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
   gem "jekyll-include-cache"
-  gem 'jekyll-seo-tag', github: 'scottwater/jekyll-seo-tag'
+  gem 'jekyll-seo-tag', git: 'https://github.com/scottwater/jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/scottwater/jekyll-seo-tag.git
+  remote: https://github.com/scottwater/jekyll-seo-tag
   revision: b137b7c433ee3eb49668e38b68d68c9522463f72
   specs:
     jekyll-seo-tag (2.5.0)
@@ -15,6 +15,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    coderay (1.1.2)
     colorator (1.1.0)
     commonmarker (0.18.2)
       ruby-enum (~> 0.5)
@@ -64,9 +65,13 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    method_source (0.9.2)
     minitest (5.11.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
     public_suffix (3.0.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
@@ -99,6 +104,7 @@ DEPENDENCIES
   jekyll-seo-tag!
   jekyll-sitemap
   liquid-c
+  pry
   tzinfo-data
 
 BUNDLED WITH
