@@ -6,6 +6,16 @@ tags:
 permalink: /mac-mechanical-keyboard-search
 ---
 
+## Update - March 4, 2018
+
+I had been going back and forth with WASD's support over the firmware issues. They assured me they would get it right and offered to cover the shipping to make it work.
+
+In the end, I preferred the overall size and enjoy using a back lit keyboard. I decided to return all of the keyboards I purchased to Amazon and placed an order directly with WASD. It was a long 3 weeks or so back in the non-mechanical keyboard world, but I survived and I am now typing this update on the Code V3.
+
+It is a great form factor and support on this level is rare. I definitely recommend giving them a try.
+
+Also of interest, I decided to go with the Cherry MX Brown switches. I am still not 100% sure on this. I miss the clickiness of the MX Blue's, but quieter MX Browns are a bit better for early mornings when the rest of the family is sleeping.
+
 ## Short Version
 
 I enjoyed using both the Das Keyboard and WASD Code V3. The smaller size and backlighting would have been enough to push the WASD ahead, but the rollout and Windows requirement of the V3 was too much to overlook.
@@ -136,3 +146,5 @@ I bookmarked a couple of Kickstarter projects over the years for lower profile m
 ## And we have a winner....
 
 I am going to stick with the Das Keyboard. As I wrote this today, I will miss the backlighting, but I find the 1/4 inch in height makes a noticeable difference and I  can not get past the how WASD is handling the V3 rollout and update requirements.
+
+**See Update Above** - I eneded up going with a WASD Code MX Brown.
