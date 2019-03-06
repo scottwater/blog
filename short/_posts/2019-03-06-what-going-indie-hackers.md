@@ -1,5 +1,5 @@
 ---
-title: "\\What's going on with Indie Hackers?"
+title: "What's going on with Indie Hackers?"
 layout: post
 date: '2019-03-06 23:23:01 +0000'
 short_url: https://smw.fyi/4G
