@@ -3,6 +3,7 @@ layout: post
 title: "Proxying Requests To Heroku Via Caddy Server"
 date: 2019-03-07 14:59:26 -0500
 tags:
+image: /assets/images/posts/undraw/undraw_coding.png
 permalink: /heroku-caddy
 ---
 
