@@ -22,7 +22,7 @@ blockquote {
   @apply border-l-2 border-grey-light p-4 italic
 }
 
-.content > *, .content blockquote > *{
+.content > *, .content blockquote > *, article.short > *{
   @apply mb-6
 }
 
@@ -30,7 +30,7 @@ article p {
   @apply mt-2
 }
 
-.content > :last-child, .content blockquote > :last-child {
+.content > :last-child, .content blockquote > :last-child, .article.short > :last-child {
   @apply mb-0
 }
 
