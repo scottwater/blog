@@ -12,4 +12,6 @@ Here are are the projects I am currently involved in:
 
 [Indie Triage](https://indietriage.com) - Tries to help ensure all questions asked on sites like Indie Hackers get answered.
 
+[Jekyll Rest](https://github.com/scottwater/jekyll_rest) - An API for Jekyll ([more details](/jekyll-rest)).
+
 [Shorti](https://github.com/scottwater/shorti) - Simple API only URL Shortener ([more details](/shorti)).
