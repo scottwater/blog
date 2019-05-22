@@ -1,16 +1,16 @@
 source "https://rubygems.org"
-gem 'jekyll'
+gem "activesupport"
 gem "liquid-c"
-gem 'activesupport'
+gem "jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-commonmark"
-  gem 'jekyll-paginate'
-  gem "jekyll-sitemap"
+  gem "jekyll-include-cache"
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
-  gem "jekyll-include-cache"
-  gem 'jekyll-seo-tag', git: 'https://github.com/scottwater/jekyll-seo-tag'
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-seo-tag", git: "https://github.com/scottwater/jekyll-seo-tag"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
