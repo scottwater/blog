@@ -14,7 +14,7 @@
     <nav class="">
   			{%- for page in site.pages -%}
   			{%- if page.title and page.hide != true -%}
-  				<a class="text-grey-dark mr-2 md:mr-4 lg:mr-8 hover:underline" href="{{- page.url | relative_url -}}">
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="{{- page.url | relative_url -}}">
   					{{- page.link_title | default: page.title -}}
   				</a>
   			{%- endif -%}

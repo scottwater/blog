@@ -10,6 +10,5 @@
       {{ post.content | strip_html | truncatewords:35 }}
     {% endif %}
   </p>
-
-  <span class="text-muted text-sm text-grey">{{ post.date | date: '%b %d, %Y' }}</span>
+  <span class="text-sm text-gray-400">{{ post.date | date: '%b %d, %Y' }}</span>
 </article>

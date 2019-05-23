@@ -16,10 +16,10 @@ a {@apply no-underline text-black}
 
 a:hover {@apply no-underline}
 
-h1, h2, h3 {@apply font-headlines}
+ h1, h2, h3 {@apply font-headlines}
 
 blockquote {
-  @apply border-l-2 border-grey-light p-4 italic
+  @apply border-l-2 border-gray-400 p-4 italic
 }
 
 .content > *, .content blockquote > *, article.short > *{
@@ -43,11 +43,11 @@ article p {
 }
 
 .highlighter-rouge {
-  @apply bg-grey-lightest italic;
+  @apply bg-gray-100 italic;
 }
 
 .footnotes {
-  @apply border-t-2 border-solid border-grey-lighter pt-2 mx-32
+  @apply border-t-2 border-solid border-gray-400 pt-2 mx-32
 }
 
 .footnotes ol{
