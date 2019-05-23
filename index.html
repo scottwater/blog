@@ -8,7 +8,7 @@ layout: default
   </div>
 
   <div>
-    <h2 class="mb-5">Recent Posts</h2>
+    <h2 class="mb-5 text-xl font-bold">Recent Posts</h2>
     {% for post in site.categories.blog limit:6 %}
       {%- include post-excerpt.html -%}
     {%- endfor -%}

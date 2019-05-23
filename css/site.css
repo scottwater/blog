@@ -16,7 +16,7 @@ a {@apply no-underline text-black}
 
 a:hover {@apply no-underline}
 
- h1, h2, h3 {@apply font-headlines}
+h1, h2, h3 {@apply font-headlines}
 
 blockquote {
   @apply border-l-2 border-gray-400 p-4 italic
@@ -52,6 +52,21 @@ article p {
 
 .footnotes ol{
   @apply -mx-32
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: theme('padding.4');
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: theme('padding.4');
+}
+
+#archive {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* Write your styles below this line. */
