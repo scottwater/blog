@@ -3,7 +3,7 @@ layout: default
 title: Shorts
 ---
 
-<div class="content mb-10 bg-blue-lightest border-l-4 border-blue p-4">
+<div class="content mb-10 bg-blue-100 border-l-4 border-blue p-4">
   Shorts are small posts and links. These are auto posted to <a href="https://twitter.com/scottw" target="_blank">@scottw</a> on Twitter.
 </div>
 
