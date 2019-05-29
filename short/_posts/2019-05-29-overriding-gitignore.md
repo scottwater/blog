@@ -1,5 +1,5 @@
 ---
-title: Overriding a .gitignore
+title:"💡 TIL: Overriding a .gitignore"
 layout: post
 date: '2019-05-29 14:02:18 +0000'
 permalink: sa8
