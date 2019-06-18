@@ -4,7 +4,7 @@ layout: post
 date: '2019-06-18 16:16:23 +0000'
 permalink: sap
 ---
-Good stuff for [Rails devs starting to tinker in JavaScript](https://medium.com/6overground/node-js-for-rails-lovers-d3c617f55bec).
+Good stuff for [Rails devs starting to tinker in JavaScript](https://medium.com/6overground/node-js-for-rails-lovers-d3c617f55bec) by @craigphares.
 
 A couple of thoughts:
 <!--more-->
