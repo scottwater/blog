@@ -3,15 +3,13 @@ require 'active_support/core_ext/object/blank'
 require 'twitter-text'
 
 Jekyll::Hooks.register :posts, :post_render do |post|
-  i += 1
+
   if post.data["categories"].include?('short')
-    binding.pry if i == 1
+
     if post.data['excerpt_separator'].nil? && post.content =~ /(<!--\s*more\s*-->)/
       post.data["excerpt_separator"] = $1
       post.data['excerpt'] = Jekyll::Excerpt.new(post)
     end
-
-    binding.pry if post.data['title'] =~ /roadblocks/i
 
     has_excerpt_defined = !!post.data['excerpt_separator']
     # in Jekyll, all posts have an excerpt.
