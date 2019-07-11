@@ -36,8 +36,8 @@ Jekyll::Hooks.register :posts, :post_render do |post|
 
     if url_to_include_in_tweet
       pre_parsed_results = Twitter::TwitterText::Validation.parse_tweet(feed_description)
-      if pre_parsed_results[:valid] && pre_parsed_results[:weighted_length] <= 254
-        feed_description = "#{feed_description} - #{url_to_include_in_tweet}"
+      if pre_parsed_results[:valid] && pre_parsed_results[:weighted_length] <= 256
+        feed_description = "#{feed_description} #{url_to_include_in_tweet}"
       else # This is far from perfect. Making a big assumption there are no other urls in the message
         feed_description = "#{feed_description.truncate(253, separator: /\s/)} #{url_to_include_in_tweet}"
       end
