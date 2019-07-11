@@ -17,7 +17,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description><![CDATA[{{ post.feed_description | strip_html | truncate:280 }}]]></description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: prepend: site.url }}</link>
+        <link>{{ post.url | prepend: site.url }}</link>
         {%- if post.link_url %}
           <source_url>{{post.link_url | xml_escape}}</source_url>
         {% else %}
