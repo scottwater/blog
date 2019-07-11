@@ -2,6 +2,7 @@ source "https://rubygems.org"
 gem "activesupport"
 gem "liquid-c"
 gem "jekyll"
+gem "twitter-text"
 
 group :jekyll_plugins do
   gem "jekyll-commonmark"
