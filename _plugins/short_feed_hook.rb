@@ -28,19 +28,8 @@ Jekyll::Hooks.register :posts, :post_render do |post|
     # no need to use the short url. Twitter treats all urls as 23 characters
 
     feed_description = "#{post.data["title"]} - #{feed_excerpt}".strip
+    feed_description = "#{feed_description.truncate(253, separator: /\s/)} #{published_url}"
 
-    url_to_include_in_tweet = (has_excerpt_defined && published_url)
-
-    if url_to_include_in_tweet
-      pre_parsed_results = Twitter::TwitterText::Validation.parse_tweet(feed_description)
-      feed_description = if pre_parsed_results[:valid] && pre_parsed_results[:weighted_length] <= 256
-        "#{feed_description} #{url_to_include_in_tweet}"
-      else # This is far from perfect. Making a big assumption there are no other urls in the message
-        "#{feed_description.truncate(253, separator: /\s/)} #{url_to_include_in_tweet}"
-      end
-    end
-
-    # if there is no url, let's just send the tweet and let Twitter truncate it if necessary
 
     post.data["feed_description"] = feed_description
   end
