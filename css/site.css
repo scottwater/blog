@@ -1,45 +1,67 @@
 ---
 ---
+
 /* Front matter is necessary for Jekyll */
 
 @import "_includes/preflight";
 @import "_includes/components";
 @import "_includes/syntax";
 
-a {@apply no-underline text-black}
-
-.post a, article p a {@apply underline}
-.post h1 a {@apply no-underline}
-
-.post #archive li a {@apply no-underline}
-.post #archive li a:hover {@apply underline}
-
-a:hover {@apply no-underline}
-
-h1, h2, h3 {@apply font-headlines}
-
-blockquote {
-  @apply border-l-2 border-gray-400 p-4 italic
+a {
+  @apply no-underline text-black;
 }
 
-.content > *, .content blockquote > *, article.short > *{
-  @apply mb-6
+.post a,
+article p a {
+  @apply underline;
+}
+.post h1 a {
+  @apply no-underline;
+}
+
+.post #archive li a {
+  @apply no-underline;
+}
+.post #archive li a:hover {
+  @apply underline;
+}
+
+a:hover {
+  @apply no-underline;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-headlines;
+}
+
+blockquote {
+  @apply border-l-2 border-gray-400 p-4 italic;
+}
+
+.content > *,
+.content blockquote > *,
+article.short > * {
+  @apply mb-6;
 }
 
 article p {
-  @apply mt-2
+  @apply mt-2;
 }
 
-.content > :last-child, .content blockquote > :last-child, .article.short > :last-child {
-  @apply mb-0
+.content > :last-child,
+.content blockquote > :last-child,
+.article.short > :last-child {
+  @apply mb-0;
 }
 
-.content li{
-  @apply mb-3
+.content li {
+  @apply mb-3;
 }
 
-.content li:last-child{
-  @apply mb-0
+.content li:last-child {
+  @apply mb-0;
 }
 
 .highlighter-rouge {
@@ -47,21 +69,21 @@ article p {
 }
 
 .footnotes {
-  @apply border-t-2 border-solid border-gray-400 pt-2 mx-32
+  @apply border-t-2 border-solid border-gray-400 pt-2 mx-32;
 }
 
-.footnotes ol{
-  @apply -mx-32
+.footnotes ol {
+  @apply -mx-32;
 }
 
 ul {
   list-style-type: disc;
-  padding-left: theme('padding.4');
+  padding-left: theme("padding.6");
 }
 
 ol {
   list-style-type: decimal;
-  padding-left: theme('padding.4');
+  padding-left: theme("padding.6");
 }
 
 #archive {
