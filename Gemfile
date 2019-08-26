@@ -6,7 +6,6 @@ gem "twitter-text"
 
 group :jekyll_plugins do
   gem "jekyll-commonmark"
-  gem "jekyll-include-cache"
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
   gem "jekyll-sitemap"
