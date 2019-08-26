@@ -1,0 +1,33 @@
+---
+layout: default
+title: Shorts
+pagination:
+  enabled: true
+  category: short
+  permalink: /p/:num/
+  sort_reverse: true
+  sort_field: date
+  per_page: 25
+---
+
+<div class="content mb-10 bg-blue-100 border-l-4 border-blue p-4">
+  Shorts are small posts and links. These are auto posted to <a href="https://twitter.com/scottw" target="_blank">@scottw</a> on Twitter.
+</div>
+
+  <div>
+    {% for post in paginator.posts %}
+      {%- include short.html -%}
+    {%- endfor -%}
+  </div>
+
+
+{% if paginator.total_pages > 1 %}
+<pager class="flex">
+  {% if paginator.next_page %}
+    <a class="flex-auto text-left" href="{{ paginator.next_page_path }}">← Older Shorts</a>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="flex-auto text-right" href="{{ paginator.previous_page_path }}">Newer Shorts →</a>
+  {% endif %}
+</pager>
+{% endif %}

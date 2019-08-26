@@ -27,15 +27,17 @@ kramdown:
 # PAGINATION
 # paginate: 5
 # paginate_path: "p:num"
+pagination:
+  enabled: true
 permalink: "/:title"
 
 plugins:
   - jekyll-commonmark
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-postcss
   - jekyll-purgecss
+  - jekyll-paginate-v2
 
 include:
   - _pages

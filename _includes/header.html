@@ -12,13 +12,11 @@
     <span>Husband, Father, Bootstrapper, Developer, Builder, Shipper.</span>
     </div>
     <nav class="">
-  			{%- for page in site.pages -%}
-  			{%- if page.title and page.hide != true -%}
-  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="{{- page.url | relative_url -}}">
-  					{{- page.link_title | default: page.title -}}
-  				</a>
-  			{%- endif -%}
-  			{%- endfor -%}
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="/about">About</a>
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="/archive">Posts</a>
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="/now">Now</a>
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="/projects">Projects</a>
+  				<a class="text-gray-600 mr-2 md:mr-4 lg:mr-8 hover:underline" href="/shorts">Shorts</a>
   	</nav>
   </div>
 </header>
