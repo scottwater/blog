@@ -6,23 +6,23 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Scott Watermasysk
-favicon:     assets/favicon.ico
-email:       scottwater@gmail.com
+title: Scott Watermasysk
+favicon: assets/favicon.ico
+email: scottwater@gmail.com
 description: Family, Life, Business, Code, and some sports
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         https://scottw.com # The base hostname & protocol for your site
-twitter:     https://twitter.com/scottw
-github:      https://github.com/scottwater
+baseurl: "" # The subpath of your site, e.g. /blog
+url: https://scottw.com # The base hostname & protocol for your site
+twitter: https://twitter.com/scottw
+github: https://github.com/scottwater
 
 feed_items: 10
 
-markdown:  kramdown
-commonmark: 
+markdown: kramdown
+commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table"]
 kramdown:
-  footnote_backlink: '&#x21A9;&#xFE0E;'
+  footnote_backlink: "&#x21A9;&#xFE0E;"
 
 # PAGINATION
 # paginate: 5
@@ -59,6 +59,6 @@ exclude:
 # Pages path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename
