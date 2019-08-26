@@ -10,19 +10,14 @@ During _business_ hours, I am the co-founder of KickoffLabs. I focus primarily o
 
 At KickoffLabs I am working on:
 
-* Improving our fraud protection
-* Leads via Phone/SMS
-* Improving how we handle and process images
-* Experimenting with options to publish pages directly to a CDN
-* Making everything as simple as possible
+- Improving our Outbound Webhooks
+- Enabling Inbound Webhooks
+- Experimenting with some API additions/updates
 
 Outside of Family and KickoffLabs:
 
-* Writing more (I hope!)
-* Getting ready to launch [Indie Triage](https://indietriage.com)
-* Prototyping a couple of other product ideas
-* Trying to get better at visual/web design
-* Experimenting with docker
-* Less time on twitter and more time on places like:
-  * [IndieHackers](https://indiehackers.com)
-  * [Discuss Bootstrap](https://discuss.bootstrapped.fm/)
+- Writing more (I hope!)
+- Building [HowIVSCode](https://howivscode.com)
+- Prototyping a couple of other product ideas (maybe even the successor or evolution of KickoffLabs itself)
+- Digging deeper in JavaScript. Especially React, TypeScript, and a little Svelte
+- Trying to decide if I love or hate GraphQL
