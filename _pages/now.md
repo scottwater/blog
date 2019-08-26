@@ -17,7 +17,7 @@ At KickoffLabs I am working on:
 Outside of Family and KickoffLabs:
 
 - Writing more (I hope!)
-- Building [HowIVSCode](https://howivscode.com)
+- Building [How I VSCode](https://howivscode.com)
 - Prototyping a couple of other product ideas (maybe even the successor or evolution of KickoffLabs itself)
 - Digging deeper in JavaScript. Especially React, TypeScript, and a little Svelte
 - Trying to decide if I love or hate GraphQL
