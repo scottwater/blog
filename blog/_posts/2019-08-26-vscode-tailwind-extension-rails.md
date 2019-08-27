@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VSCode Tailwind Extension And Rails (ERB)"
+title: "VSCode Tailwind CSS Extension And Rails (ERB)"
 date: 2019-08-26 22:53:14 -0400
 tags: [vscode, tailwindcss, rails, erb]
 ---
