@@ -6,7 +6,7 @@
   {{ post.content | twitter_names}}
   {%- if post.link_url -%}
     <p>
-    🔗
+    👉
     <a href='{{ post.link_url }}' class="underline text-black hover:underline" target='_blank' >{{ post.link_url | truncate:60 }}</a>
     </p>
   {%- endif -%}
