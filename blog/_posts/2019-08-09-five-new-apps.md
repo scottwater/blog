@@ -9,7 +9,11 @@ tags:
 
 Most of these are merely new to me, not necessarily new apps.
 
-[CleanShot](https://getcleanshot.com) - I have been using Droplr for the last couple of years, but recently switched to CleanShot. It has a very clean UI and is simple to use. There is no built-in sharing (still using Droplr there), but overall it is excellent.
+Update...
+
+~~[CleanShot](https://getcleanshot.com) - I have been using Droplr for the last couple of years, but recently switched to CleanShot. It has a very clean UI and is simple to use. There is no built-in sharing (still using Droplr there), but overall it is excellent.~~
+
+[CloudApp](https://www.getcloudapp.com) - I am still a big fan of CleanShot, however, the lack of built-in sharing gave me a wandering eye. 😏 I did a bit more research and found another app that has existed for years...CloudApp. Similarly to CleanShot, it has an easy to use interface and just about everything you want from an app like this, including built-in sharing (custom URL and all). I have been using it for a couple of weeks now and I am very happy with it.
 
 [CommandTab Plus](http://commandtab.noteifyapp.com) - OS X spaces are a great way to organize working on different tasks. However, if you frequently use ⌘+Tab, you can accidentally select an app in a different space and end up leaving your current space. CommandTab Plus solves this by changing ⌘+Tab to only show you the apps in your current space. This app has made a considerable improvement in my productivity since I can more easily jump back into something without restarting everything.
 
