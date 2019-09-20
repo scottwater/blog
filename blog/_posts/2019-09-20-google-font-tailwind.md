@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Google Font Tailwind"
+title: "Using Google Fonts Tailwind CSS"
 date: 2019-09-20 09:39:48 -0400
 tags:
 ---
 
-Here is a quick overview of adding a Google font to your [Tailwind CSS](https://tailwindcss.com) powered site without having allowing anything from Google executing on your site.
+Here is a quick overview of adding a Google font to your [Tailwind CSS](https://tailwindcss.com) powered site without allowing Google direct access to your site.
 
 First, select your font and then add the package to your project via the [typefaces](https://github.com/KyleAMathews/typefaces) project.
 
