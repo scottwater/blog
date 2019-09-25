@@ -105,7 +105,6 @@ DEPENDENCIES
   jekyll-sitemap
   liquid-c
   twitter-text
-  tzinfo-data
 
 BUNDLED WITH
    1.17.3
