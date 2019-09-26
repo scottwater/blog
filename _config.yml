@@ -18,8 +18,6 @@ github: https://github.com/scottwater
 feed_items: 10
 
 markdown: kramdown
-kramdown:
-  footnote_backlink: "&#x21A9;&#xFE0E;"
 
 # PAGINATION
 # paginate: 5
