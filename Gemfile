@@ -5,7 +5,6 @@ gem "jekyll"
 gem "twitter-text"
 
 group :jekyll_plugins do
-  gem "jekyll-commonmark"
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
   gem "jekyll-sitemap"
