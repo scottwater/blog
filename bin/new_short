@@ -48,4 +48,4 @@ File.open(path, 'w') do |f|
   f.write(front_matter)
 end
 
-system('vim', path)
+system('code', path)
