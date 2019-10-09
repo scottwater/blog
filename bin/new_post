@@ -35,6 +35,7 @@ front_matter =    <<-FRONTMATTER
                   title: "#{title}"
                   date: #{now}
                   tags:
+                  categories: article
                   ---
                   FRONTMATTER
                     .split("\n")
@@ -46,4 +47,4 @@ File.open(path, 'w') do |f|
   f.write(front_matter)
 end
 
-system('vim', path)
+system('code', path)
