@@ -3,6 +3,7 @@ layout: post
 title: "Bugs are Inevitable. Your Response is What Matters"
 date: 2019-02-20 08:22:29 -0500
 image: /assets/images/posts/wasd_sorry.png
+categories:  article
 ---
 
 Bug, defects, delays, etc will always happen. With good practices, you can minimize them, but they will always exist.
@@ -12,7 +13,7 @@ You can however control **how you respond to them**. This message from [WASD][1]
 ![Sorry email from WASD](/assets/images/posts/wasd_sorry.png)
 
 1. Accept fault
-2. Apologize 
+2. Apologize
 3. Provide details and supporting information.
 
 [^1]: If you are following my [keyboard journey][2], interactions with WASD like this won me over.

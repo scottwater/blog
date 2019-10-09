@@ -4,6 +4,7 @@ title: "Might be Time to Retire 'Grandfathered Pricing'"
 date: 2019-01-15 05:07:41 -0500
 tags:
 
+categories:  article
 ---
 
 A couple of weeks ago, I half-jokingly asked on Twitter:

@@ -4,6 +4,7 @@ title: Mini ToDo List Showdown
 date: 2018-11-15 05:44:30 -0500
 tags: apps, productivity
 
+categories:  article
 ---
 
 I had previously used both [OmniFocus](https://www.omnigroup.com/omnifocus/) and [Things](https://culturedcode.com/things/), but neither stuck. Looking back, it was much more a lack discipline than an app issue.

@@ -5,6 +5,7 @@ date: 2019-04-29 09:23:43 -0400
 image: /assets/images/posts/undraw/code_review.png
 headline_image: true
 tags: ts
+categories:  article
 ---
 
 I have been spending some free time dabbling in Typescript.

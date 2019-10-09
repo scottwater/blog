@@ -5,6 +5,7 @@ date: 2019-08-09 07:54:44 -0400
 image: /assets/images/posts/undraw/desktop.png
 headline_image: true
 tags:
+categories:  article
 ---
 
 Most of these are merely new to me, not necessarily new apps.

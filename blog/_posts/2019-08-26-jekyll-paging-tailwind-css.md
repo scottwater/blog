@@ -3,6 +3,7 @@ layout: post
 title: "Jekyll Paging With Tailwind CSS"
 date: 2019-08-26 10:55:07 -0400
 tags: [jekyll, tailwindcss]
+categories:  article
 ---
 
 I updated this blog Jekyll 4.0 and decided it was time to add paging to my [Shorts category](https://scottw.com/what-your-shorts-why-you-should-use-them-too).

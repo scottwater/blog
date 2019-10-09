@@ -4,21 +4,22 @@ title: Your Startup Does Not Need A Blog
 date: 2018-11-29 05:17:20 -0500
 tags: bootstrapping, business
 
+categories:  article
 ---
 
-Building an audience takes time. It usually takes a lot of time. 
+Building an audience takes time. It usually takes a lot of time.
 
 To counter this you are told to start early. Start writing and sharing as soon as possible. And while this is good advice, in the beginning it is just you talking into the wind.
 
-A startup's blog should be thought of as a long tail tool.  It is something that will likely yield tiny (maybe even unmeasurable) results at first, but if you keep at it year after year you will likely see some good results. 
+A startup's blog should be thought of as a long tail tool.  It is something that will likely yield tiny (maybe even unmeasurable) results at first, but if you keep at it year after year you will likely see some good results.
 
-What should you do instead? 
+What should you do instead?
 
-Go to where your customers hang out today. Go to their forums. Go to their existing blogs. Look for questions you can answer on places like Quora. 
+Go to where your customers hang out today. Go to their forums. Go to their existing blogs. Look for questions you can answer on places like Quora.
 
-Once you find where your customers are today, don't just post links to your product. Find ways you can help. Genuinely be a good community member. 
+Once you find where your customers are today, don't just post links to your product. Find ways you can help. Genuinely be a good community member.
 
-Quora and Twitter were the two places we ([KickoffLabs][1]) benefited from most in the early days. 
+Quora and Twitter were the two places we ([KickoffLabs][1]) benefited from most in the early days.
 
 * Quora - we answered questions on landing pages.[^1]
 * Twitter - There was a free related tool to us that launched shortly before we did and managed to generate a good amount of press. Their growth shtick was to have would be users post about waiting in line (and then have them wait in line). Josh and I spent hours writing unique messages[^2] to each of them about skipping the line and going with a product that was waiting for them

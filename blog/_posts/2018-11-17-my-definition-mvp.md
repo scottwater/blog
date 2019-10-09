@@ -4,21 +4,22 @@ title: My Definition of an MVP
 date: 2018-11-17 05:12:05 -0500
 tags: bootstrapping, biz, mvp
 
+categories:  article
 ---
 
-MVP (minimum viable product) is certainly open to interpretation. When done right, it can be valuable tool to help you understand your market and justify continuing to down your current path. 
+MVP (minimum viable product) is certainly open to interpretation. When done right, it can be valuable tool to help you understand your market and justify continuing to down your current path.
 
-Too much focus on MVPs is on the product and experience. Far too little focus is on will someone actually hand over the cash (saying you would pay is not the same as you will pay). 
+Too much focus on MVPs is on the product and experience. Far too little focus is on will someone actually hand over the cash (saying you would pay is not the same as you will pay).
 
-So without further ado, here is my definition of an MVP: 
+So without further ado, here is my definition of an MVP:
 
 **The smallest thing that solves a customer problem enough that they are actually willing to pay for it....and you take the money.**
 
-Your customers need to use the product. Telling them about it and getting feedback does not hold up. It is the experience. The joy (in use and time saved). The feeling of a product that really matters. This cannot be faked. 
+Your customers need to use the product. Telling them about it and getting feedback does not hold up. It is the experience. The joy (in use and time saved). The feeling of a product that really matters. This cannot be faked.
 
 Does this mean you can't build an MVP in a weekend? Maybe...but it really depends on the product (and your skills).
 
-Looking back at 7 years or so of [KickoffLabs](https://kickofflabs.com), the best thing we did was not only ship quickly (about ~3 months or so of development), but we also enabled [customers](https://scottw.com/users-vs-customers) to pay us for the service on day one. This enabled us to prioritize all the feedback we were receiving. 
+Looking back at 7 years or so of [KickoffLabs](https://kickofflabs.com), the best thing we did was not only ship quickly (about ~3 months or so of development), but we also enabled [customers](https://scottw.com/users-vs-customers) to pay us for the service on day one. This enabled us to prioritize all the feedback we were receiving.
 
 ## What about really large complex apps? Enterprise apps?
 

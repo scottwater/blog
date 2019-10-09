@@ -4,6 +4,7 @@ title: "My Favorite Ruby Gems For Development"
 date: 2019-01-21 08:27:17 -0500
 tags: ruby,rails
 
+categories:  article
 ---
 
 There are many Ruby Gems you can use on a project. The following are my favorites for improving the development experience, primarily on Rails apps.

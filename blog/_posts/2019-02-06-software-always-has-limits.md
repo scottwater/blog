@@ -4,6 +4,7 @@ title: "Unlimited Software Does Not Exist"
 date: 2019-02-06 11:00:16 -0500
 tags:
 permalink: '/limits'
+categories:  article
 ---
 
 In software, nothing is unlimited. You can market and sell your product *without any limits*, but when it comes to computing, **there are always limits**.

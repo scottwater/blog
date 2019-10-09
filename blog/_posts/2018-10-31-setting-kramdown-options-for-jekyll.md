@@ -4,6 +4,7 @@ title: 'TIL: Setting Kramdown Options for Jekyll'
 
 tags: jekyll, til
 date: 2018-10-31 07:59 -0400
+categories:  article
 ---
 [Kramdown](https://github.com/gettalong/kramdow) is the default (and preferred) markdown processor for Jekyll.
 

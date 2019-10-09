@@ -5,13 +5,14 @@ date: 2019-03-07 14:59:26 -0500
 tags:
 image: /assets/images/posts/undraw/undraw_coding.png
 permalink: /heroku-caddy
+categories:  article
 ---
 
 I wanted to experiment with using [Caddy Server][1] as a reverse proxy to an application hosted on Heroku.
 
 If you are not familiar with Caddy, it is a newish, lightweight web server written in Go that was built from the ground up to leverage HTTPS (via Let's Encrypt). Caddy is general purpose web server, but for now, I am only interested in using it as a reverse proxy.
 
-You can create a minimalist version of a [reverse proxy][5] by adding a `Caddyfile` with the following: 
+You can create a minimalist version of a [reverse proxy][5] by adding a `Caddyfile` with the following:
 
 ```conf
 yourdomainname.com
@@ -49,7 +50,7 @@ proxy / proxieddomain.com {
 
 Less Code == More Gooder! Well, except here. Heroku fails in the Host header is set to anything other than the _proxieddomain.com_. This one took quite a while to figure out. [Thank you very much curl!][3]
 
-I reached out to Heroku and they confirmed that the HOST header is used internally 
+I reached out to Heroku and they confirmed that the HOST header is used internally
 
 > The Heroku router uses the host header for routing traffic on the platform. If you are specifying a host that is not setup as a custom domain on your application these sorts of requests will fail because they won't be able to be routed.
 

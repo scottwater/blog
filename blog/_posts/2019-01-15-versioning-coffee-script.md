@@ -4,6 +4,7 @@ title: "Versioning Coffee Script"
 date: 2019-01-16 05:53:03 -0500
 tags:
 
+categories:  article
 ---
 
 [KickoffLabs](https://kickofflabs.com) current widget framework was built on CoffeeScript. The entire system is something that started small and then grew over the last seven years.

@@ -3,6 +3,7 @@ layout: post
 title: "😀 Emoji Prompt"
 date: 2019-08-02 10:03:12 -0400
 image: /assets/images/posts/iTerm2_emoji_prompt.png
+categories:  article
 ---
 
 In my shell prompt, I typically keep things very simple. Just the current folder I am in and the git branch.

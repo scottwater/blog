@@ -3,6 +3,7 @@ layout: post
 title: "Using Google Fonts Tailwind CSS"
 date: 2019-09-20 09:39:48 -0400
 tags:
+categories:  article
 ---
 
 Here is a quick overview of adding a Google font to your [Tailwind CSS](https://tailwindcss.com) powered site without allowing Google direct access to your site.

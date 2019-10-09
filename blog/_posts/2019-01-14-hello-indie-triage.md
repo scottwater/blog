@@ -5,6 +5,7 @@ date: 2019-01-14 04:54:35 -0500
 tags:
 image: '/assets/images/posts/indie_triage.png'
 headline_image: true
+categories:  article
 ---
 
 I was navigating around [Indie Hackers](https://indiehackers.com) one day, and I came across this post, _[Indie Hacker Etiquette: No Post Left Behind](https://www.indiehackers.com/forum/indie-hacker-etiquette-no-post-left-behind-48cc249605)_.

@@ -4,6 +4,7 @@ title: "TIL: Calculating Levenshtein Differences in PostgreSQL"
 date: 2018-10-31 10:31 -0400
 tags: til, postgresql
 
+categories:  article
 ---
 
 Today's OMG, PostgreSQL does that too award goes to the [fuzzystrmatch extension](https://www.postgresql.org/docs/9.6/static/fuzzystrmatch.html).

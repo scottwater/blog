@@ -4,11 +4,12 @@ title: Quicker Posts In Jekyll
 date: 2018-11-28 19:03:05 -0500
 tags:
 
+categories:  article
 ---
 
-I had [previously mentioned](https://scottw.com/news-to-me-1) using [Jekyll Compose](https://github.com/jekyll/jekyll-compose). While Jekyll Compose worked well, it still required I enter a bunch of content, playing with the file name, find the file in an editor, etc. 
+I had [previously mentioned](https://scottw.com/news-to-me-1) using [Jekyll Compose](https://github.com/jekyll/jekyll-compose). While Jekyll Compose worked well, it still required I enter a bunch of content, playing with the file name, find the file in an editor, etc.
 
-To speed things up, I wrote a little script called `new_post`. new_post takes a title as it's only argument, sets the title, a smart slug, some other presets, and finally opens ByWord. 
+To speed things up, I wrote a little script called `new_post`. new_post takes a title as it's only argument, sets the title, a smart slug, some other presets, and finally opens ByWord.
 
 ```ruby
 #!/usr/bin/env ruby
@@ -48,7 +49,7 @@ front_matter =    <<-FRONTMATTER
                   title: #{title}
                   date: #{now}
                   tags:
-                  
+
                   ---
                   FRONTMATTER
                     .split("\n")

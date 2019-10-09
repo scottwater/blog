@@ -6,6 +6,7 @@ date: 2019-09-16 08:54:05 -0400
 image: assets/images/posts/vcr_chromium.png
 headline_image: true
 tags:
+categories:  article
 ---
 
 I noticed today that VCR was reporting a request I was not expecting[^1].

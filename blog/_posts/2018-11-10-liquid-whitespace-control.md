@@ -4,6 +4,7 @@ title: 'TIL: Liquid WhiteSpace Control'
 date: 2018-11-10 20:31 -0500
 tags: til, jekyll
 
+categories:  article
 ---
 Did a quick view source and saw this on the new theme:
 

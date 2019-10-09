@@ -4,6 +4,7 @@ title: "Introducing Jekyll Rest"
 date: 2019-03-11 12:30:52 -0400
 tags: [jekyll, oss]
 image: /assets/images/posts/undraw/undraw_blog_post.png
+categories:  article
 ---
 
 Executive Summary - [Jekyll Rest][1] allows you to publish to a Jekyll based site which uses Github as a repository.

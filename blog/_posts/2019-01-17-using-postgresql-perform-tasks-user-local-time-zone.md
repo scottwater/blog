@@ -6,6 +6,7 @@ tags: postgresql, scopes, rails
 image: /assets/images/posts/timezones.jpg
 headline_image: true
 photo_credit: Luis Cortes via UnSplash
+categories:  article
 ---
 
 One of the benefits of side projects is giving yourself a chance to see new solutions to problems you have already tackled.

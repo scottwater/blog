@@ -3,6 +3,7 @@ layout: post
 title: "VSCode Tailwind CSS Extension And Rails (ERB)"
 date: 2019-08-26 22:53:14 -0400
 tags: [vscode, tailwindcss, rails, erb]
+categories:  article
 ---
 
 If you are having trouble getting an extension like [VSCode Tailwind][vtw] to work in VSCode, a smart place to start debugging is the language mode.

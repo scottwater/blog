@@ -4,13 +4,14 @@ title: Early Access is Not Enough
 date: 2018-11-14 18:52:45 -0500
 tags: startups, biz
 
+categories:  article
 ---
 
-After 7 years of working on [KickoffLabs](https://kickoffabs.com) I have seen many thousands of landing pages. I also very recently started to hang out on [IndieHackers](https://www.indiehackers.com) and have been providing some landing page feedback. 
+After 7 years of working on [KickoffLabs](https://kickoffabs.com) I have seen many thousands of landing pages. I also very recently started to hang out on [IndieHackers](https://www.indiehackers.com) and have been providing some landing page feedback.
 
-One very common thing I see over and over again is a call to action with something like _"Sign up for Early Access"_. 
+One very common thing I see over and over again is a call to action with something like _"Sign up for Early Access"_.
 
-This use to be enough to get people to sign up. But now, it is so prevalent that I find it to be a big turn off. 
+This use to be enough to get people to sign up. But now, it is so prevalent that I find it to be a big turn off.
 
 Think about it this way, this is your first transaction with the customer. Do you really expect them to pay you for something and get nothing in return?
 

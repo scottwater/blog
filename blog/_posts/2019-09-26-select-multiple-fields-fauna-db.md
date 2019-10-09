@@ -3,6 +3,7 @@ layout: post
 title: "Select Multiple Fields With Fauna"
 date: 2019-09-26 08:52:17 -0400
 tags: [fauna, code, fql]
+categories:  article
 ---
 I am thinking of using [Fauna][fauna] for my next small side project and began experimenting with it last night. I wanted to return two fields from a document, but I could not get the syntax correct.
 

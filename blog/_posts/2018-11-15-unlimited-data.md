@@ -3,6 +3,7 @@ layout: post
 title: Unlimited Data
 date: 2018-11-15 08:48 -0500
 tags: life
+categories:  article
 ---
 
 We finally broke down and bought my oldest daughter a phone during the summer.

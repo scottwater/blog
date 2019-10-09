@@ -5,6 +5,7 @@ date: 2019-06-05 14:00:47 -0400
 tags: [code, vscode, teminal]
 image: assets/images/posts/undraw/typing.png
 headline_image: true
+categories:  article
 ---
 
 VSCode has a good story for using the terminal within the IDE. However, there is no built in way to execute a command via a keyboard shortcut.

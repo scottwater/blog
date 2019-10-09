@@ -5,6 +5,7 @@ date: 2019-02-01 11:35:35 -0500
 tags:
 permalink: /mac-mechanical-keyboard-search
 image: /assets/images/posts/keyboards/code.jpg
+categories:  article
 ---
 
 ## Update - March 4, 2018

@@ -3,13 +3,14 @@ layout: post
 title: "Multiple Heroku Environments"
 date: 2019-03-25 09:11:13 -0400
 tags: [heroku, zsh]
+categories:  article
 ---
 
 When you have multiple environments for an app on Heroku each command you execute requires you to pass in the -a (--app) flag with the app name. Heroku app names need to be unique not just for you, but for Heroku as a whole. This means the app name might not always be as memorable as you would like. KickoffLabs is actually broken up into three separate apps which further complicates things (6 total app names).
 
 Instead of using the -a flag, you can also use the git remote name via the --remote flag.
 
-The remote name only needs to be unique within your app. This means you can reign in this craziness a bit by using your own git remote names. By default, Heroku creates a remote called `heroku`. You can use the `git remote rename` command to rename your remote(s) to something more consistent 
+The remote name only needs to be unique within your app. This means you can reign in this craziness a bit by using your own git remote names. By default, Heroku creates a remote called `heroku`. You can use the `git remote rename` command to rename your remote(s) to something more consistent
 
 ```shell
 git remote rename original_name new_name

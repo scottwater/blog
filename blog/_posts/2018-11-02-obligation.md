@@ -4,6 +4,7 @@ title: The Obligation
 date: 2018-11-02 18:26:19 -0400
 tags: life
 
+categories:  article
 ---
 
 Back in 2009[^1] I wrote a post[^2] referencing a quote from [Seth Godin's](http://sethgodin.typepad.com/) _[Tribes](http://bit.ly/5mCifE)_ about the **Obligation**:
