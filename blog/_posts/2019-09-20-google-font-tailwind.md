@@ -13,7 +13,7 @@ First, select your font and then add the package to your project via the [typefa
 In my case, I am using [Roboto](https://fonts.google.com/specimen/Roboto) for [How I VSCode](https://howivscode.com).
 
 ```bash
-yarn add typefaces-roboto
+yarn add typeface-roboto
 ```
 
 Next, require the package:
